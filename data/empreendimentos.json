@@ -493,5 +493,1685 @@
     "contato": "paula@canelinhaserv.com.br",
     "status": "inativo",
     "createdAt": "2026-02-20T11:40:00.000Z"
+  },
+  {
+    "id": "d51faf0a-238d-4d03-84e7-9740761dc9cf",
+    "nomeEmpreendimento": "Núcleo Joinville Negócios 01",
+    "nomeEmpreendedor": "Ana Souza",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T08:00:00.000Z"
+  },
+  {
+    "id": "6d3f2fca-c3bd-4c5e-b4e0-c1156d023c47",
+    "nomeEmpreendimento": "Atlas Joinville Comercial 02",
+    "nomeEmpreendedor": "Bruno Costa",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T09:00:00.000Z"
+  },
+  {
+    "id": "16f3972f-1581-4651-b427-05c23f321705",
+    "nomeEmpreendimento": "Polo Joinville Industrial 03",
+    "nomeEmpreendedor": "Carla Pereira",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T10:00:00.000Z"
+  },
+  {
+    "id": "a4730078-dc4a-4664-914b-ac81febec458",
+    "nomeEmpreendimento": "Conecta Joinville Serviços 04",
+    "nomeEmpreendedor": "Diego Rodrigues",
+    "municipio": "Joinville",
+    "segmento": "Serviços",
+    "contato": "joinville-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T11:00:00.000Z"
+  },
+  {
+    "id": "cbb44ca3-9178-4c6f-8d45-0dba35a49236",
+    "nomeEmpreendimento": "Horizonte Joinville Tech 05",
+    "nomeEmpreendedor": "Eduarda Almeida",
+    "municipio": "Joinville",
+    "segmento": "Agronegócio",
+    "contato": "joinville-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T12:00:00.000Z"
+  },
+  {
+    "id": "dd960600-4419-4e8b-b647-9665d73d80b3",
+    "nomeEmpreendimento": "Origem Joinville Agro 06",
+    "nomeEmpreendedor": "Felipe Nunes",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T13:00:00.000Z"
+  },
+  {
+    "id": "6b01b8b7-b660-4cec-b2a1-8e06fb0ce2c1",
+    "nomeEmpreendimento": "Vértice Joinville Hub 07",
+    "nomeEmpreendedor": "Giovana Mendes",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T14:00:00.000Z"
+  },
+  {
+    "id": "3486f455-9f69-44da-8c32-40c3cb738fc5",
+    "nomeEmpreendimento": "Delta Joinville Center 08",
+    "nomeEmpreendedor": "Hugo Lima",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T15:00:00.000Z"
+  },
+  {
+    "id": "03b2afb9-fda7-4759-a8d3-901d4b11e93d",
+    "nomeEmpreendimento": "Ponte Joinville Empreendimentos 09",
+    "nomeEmpreendedor": "Isabela Martins",
+    "municipio": "Joinville",
+    "segmento": "Serviços",
+    "contato": "joinville-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T16:00:00.000Z"
+  },
+  {
+    "id": "d3a1e076-c759-4718-a01c-c16aa1ca4474",
+    "nomeEmpreendimento": "Sinergia Joinville Soluções 10",
+    "nomeEmpreendedor": "João Gomes",
+    "municipio": "Joinville",
+    "segmento": "Agronegócio",
+    "contato": "joinville-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T17:00:00.000Z"
+  },
+  {
+    "id": "4118eab5-2dd6-41e3-9e4b-53e3900f98e9",
+    "nomeEmpreendimento": "Avante Joinville Negócios 11",
+    "nomeEmpreendedor": "Karen Ribeiro",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T18:00:00.000Z"
+  },
+  {
+    "id": "3b20f086-fc5c-47b2-adb5-3dcd0877f36b",
+    "nomeEmpreendimento": "Prisma Joinville Comercial 12",
+    "nomeEmpreendedor": "Lucas Carvalho",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T19:00:00.000Z"
+  },
+  {
+    "id": "99f63516-eed5-44c1-b189-8e2c7e42a626",
+    "nomeEmpreendimento": "Núcleo Joinville Industrial 13",
+    "nomeEmpreendedor": "Mariana Rocha",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T20:00:00.000Z"
+  },
+  {
+    "id": "bc38906b-4218-4f19-896e-572504cf0d29",
+    "nomeEmpreendimento": "Atlas Joinville Serviços 14",
+    "nomeEmpreendedor": "Nicolas Silva",
+    "municipio": "Joinville",
+    "segmento": "Serviços",
+    "contato": "joinville-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T21:00:00.000Z"
+  },
+  {
+    "id": "339a4b4a-c55c-47a0-9956-b2fdc8153eb9",
+    "nomeEmpreendimento": "Polo Joinville Tech 15",
+    "nomeEmpreendedor": "Olivia Santos",
+    "municipio": "Joinville",
+    "segmento": "Agronegócio",
+    "contato": "joinville-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-21T22:00:00.000Z"
+  },
+  {
+    "id": "df75d1aa-f2be-4423-8a76-3a1059d9d6ec",
+    "nomeEmpreendimento": "Conecta Joinville Agro 16",
+    "nomeEmpreendedor": "Paulo Oliveira",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-21T23:00:00.000Z"
+  },
+  {
+    "id": "9947091b-3fbf-43fa-a021-a09c95133251",
+    "nomeEmpreendimento": "Horizonte Joinville Hub 17",
+    "nomeEmpreendedor": "Queila Souza",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T00:00:00.000Z"
+  },
+  {
+    "id": "de9092c1-c422-4a03-a43d-1e3aab9b8cad",
+    "nomeEmpreendimento": "Origem Joinville Center 18",
+    "nomeEmpreendedor": "Rafael Costa",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T01:00:00.000Z"
+  },
+  {
+    "id": "52026a2f-fcec-4066-ae36-941e07985319",
+    "nomeEmpreendimento": "Vértice Joinville Empreendimentos 19",
+    "nomeEmpreendedor": "Sara Pereira",
+    "municipio": "Joinville",
+    "segmento": "Serviços",
+    "contato": "joinville-19@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T02:00:00.000Z"
+  },
+  {
+    "id": "3c6b422f-7f14-43fc-9f99-11a66cac4df1",
+    "nomeEmpreendimento": "Delta Joinville Soluções 20",
+    "nomeEmpreendedor": "Tiago Rodrigues",
+    "municipio": "Joinville",
+    "segmento": "Agronegócio",
+    "contato": "joinville-20@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T03:00:00.000Z"
+  },
+  {
+    "id": "ef294958-7135-4086-86d6-3ba0e85a722c",
+    "nomeEmpreendimento": "Ponte Joinville Negócios 21",
+    "nomeEmpreendedor": "Ursula Almeida",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-21@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T04:00:00.000Z"
+  },
+  {
+    "id": "c3c70ede-2bee-4f98-9280-5f2a53e489c4",
+    "nomeEmpreendimento": "Sinergia Joinville Comercial 22",
+    "nomeEmpreendedor": "Vinicius Nunes",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-22@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T05:00:00.000Z"
+  },
+  {
+    "id": "37107dfd-00d5-47f8-b408-52ac1d7a05cc",
+    "nomeEmpreendimento": "Avante Joinville Industrial 23",
+    "nomeEmpreendedor": "William Mendes",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-23@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T06:00:00.000Z"
+  },
+  {
+    "id": "dfcb1f01-84d3-4beb-9a8a-f55c8188ed9a",
+    "nomeEmpreendimento": "Prisma Joinville Serviços 24",
+    "nomeEmpreendedor": "Yasmin Lima",
+    "municipio": "Joinville",
+    "segmento": "Serviços",
+    "contato": "joinville-24@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T07:00:00.000Z"
+  },
+  {
+    "id": "1a89a3a0-4aae-4fce-820b-e8e6e8ba21e6",
+    "nomeEmpreendimento": "Núcleo Joinville Tech 25",
+    "nomeEmpreendedor": "Ana Martins",
+    "municipio": "Joinville",
+    "segmento": "Agronegócio",
+    "contato": "joinville-25@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T08:00:00.000Z"
+  },
+  {
+    "id": "1747c349-0621-46d8-811a-da3f92dcc4d6",
+    "nomeEmpreendimento": "Atlas Joinville Agro 26",
+    "nomeEmpreendedor": "Bruno Gomes",
+    "municipio": "Joinville",
+    "segmento": "Tecnologia",
+    "contato": "joinville-26@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T09:00:00.000Z"
+  },
+  {
+    "id": "482262ad-27e2-4391-a543-7b6050078f84",
+    "nomeEmpreendimento": "Polo Joinville Hub 27",
+    "nomeEmpreendedor": "Carla Ribeiro",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "joinville-27@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-22T10:00:00.000Z"
+  },
+  {
+    "id": "1d561260-de75-4514-b17c-6287b13fb9fc",
+    "nomeEmpreendimento": "Conecta Joinville Center 28",
+    "nomeEmpreendedor": "Diego Carvalho",
+    "municipio": "Joinville",
+    "segmento": "Indústria",
+    "contato": "joinville-28@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-22T11:00:00.000Z"
+  },
+  {
+    "id": "22926c36-1684-4236-b384-d707a13df9ab",
+    "nomeEmpreendimento": "Horizonte Florianópolis Empreendimentos 01",
+    "nomeEmpreendedor": "Eduarda Rocha",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T12:00:00.000Z"
+  },
+  {
+    "id": "b1909b07-d6a8-48f2-9616-2fcccdcaf5f9",
+    "nomeEmpreendimento": "Origem Florianópolis Soluções 02",
+    "nomeEmpreendedor": "Felipe Silva",
+    "municipio": "Florianópolis",
+    "segmento": "Agronegócio",
+    "contato": "florianopolis-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T13:00:00.000Z"
+  },
+  {
+    "id": "801364e9-fe47-4127-a83f-c4e92b46c464",
+    "nomeEmpreendimento": "Vértice Florianópolis Negócios 03",
+    "nomeEmpreendedor": "Giovana Santos",
+    "municipio": "Florianópolis",
+    "segmento": "Tecnologia",
+    "contato": "florianopolis-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T14:00:00.000Z"
+  },
+  {
+    "id": "3378c414-8f26-4a08-9476-93e8ea8125e1",
+    "nomeEmpreendimento": "Delta Florianópolis Comercial 04",
+    "nomeEmpreendedor": "Hugo Oliveira",
+    "municipio": "Florianópolis",
+    "segmento": "Comércio",
+    "contato": "florianopolis-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T15:00:00.000Z"
+  },
+  {
+    "id": "e72e6e9c-bab5-448d-8a74-af98af9e6d86",
+    "nomeEmpreendimento": "Ponte Florianópolis Industrial 05",
+    "nomeEmpreendedor": "Isabela Souza",
+    "municipio": "Florianópolis",
+    "segmento": "Indústria",
+    "contato": "florianopolis-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T16:00:00.000Z"
+  },
+  {
+    "id": "e877547e-9083-49c5-b922-0bb338d3b6f4",
+    "nomeEmpreendimento": "Sinergia Florianópolis Serviços 06",
+    "nomeEmpreendedor": "João Costa",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T17:00:00.000Z"
+  },
+  {
+    "id": "53965c1d-233c-428d-ac19-8cfb2736226d",
+    "nomeEmpreendimento": "Avante Florianópolis Tech 07",
+    "nomeEmpreendedor": "Karen Pereira",
+    "municipio": "Florianópolis",
+    "segmento": "Agronegócio",
+    "contato": "florianopolis-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T18:00:00.000Z"
+  },
+  {
+    "id": "155b2f5b-ac1a-44d9-8542-87766acf5563",
+    "nomeEmpreendimento": "Prisma Florianópolis Agro 08",
+    "nomeEmpreendedor": "Lucas Rodrigues",
+    "municipio": "Florianópolis",
+    "segmento": "Tecnologia",
+    "contato": "florianopolis-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T19:00:00.000Z"
+  },
+  {
+    "id": "3fbab18c-0275-4603-b775-7a88edda6d8d",
+    "nomeEmpreendimento": "Núcleo Florianópolis Hub 09",
+    "nomeEmpreendedor": "Mariana Almeida",
+    "municipio": "Florianópolis",
+    "segmento": "Comércio",
+    "contato": "florianopolis-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T20:00:00.000Z"
+  },
+  {
+    "id": "56aed641-3f4d-4203-8bca-36e117a69804",
+    "nomeEmpreendimento": "Atlas Florianópolis Center 10",
+    "nomeEmpreendedor": "Nicolas Nunes",
+    "municipio": "Florianópolis",
+    "segmento": "Indústria",
+    "contato": "florianopolis-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T21:00:00.000Z"
+  },
+  {
+    "id": "408c1282-908b-42fe-abeb-7b491d0b894c",
+    "nomeEmpreendimento": "Polo Florianópolis Empreendimentos 11",
+    "nomeEmpreendedor": "Olivia Mendes",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-05T22:00:00.000Z"
+  },
+  {
+    "id": "dcba4f5b-bf39-4ba9-ab87-c8a76ae31a50",
+    "nomeEmpreendimento": "Conecta Florianópolis Soluções 12",
+    "nomeEmpreendedor": "Paulo Lima",
+    "municipio": "Florianópolis",
+    "segmento": "Agronegócio",
+    "contato": "florianopolis-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-05T23:00:00.000Z"
+  },
+  {
+    "id": "89f227d2-aacb-4545-8413-40e6b59ba167",
+    "nomeEmpreendimento": "Horizonte Florianópolis Negócios 13",
+    "nomeEmpreendedor": "Queila Martins",
+    "municipio": "Florianópolis",
+    "segmento": "Tecnologia",
+    "contato": "florianopolis-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T00:00:00.000Z"
+  },
+  {
+    "id": "0773612c-757a-42d4-a541-cca315d3a92a",
+    "nomeEmpreendimento": "Origem Florianópolis Comercial 14",
+    "nomeEmpreendedor": "Rafael Gomes",
+    "municipio": "Florianópolis",
+    "segmento": "Comércio",
+    "contato": "florianopolis-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T01:00:00.000Z"
+  },
+  {
+    "id": "f33e3183-29e2-472c-96ae-2e800d33ddfb",
+    "nomeEmpreendimento": "Vértice Florianópolis Industrial 15",
+    "nomeEmpreendedor": "Sara Ribeiro",
+    "municipio": "Florianópolis",
+    "segmento": "Indústria",
+    "contato": "florianopolis-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T02:00:00.000Z"
+  },
+  {
+    "id": "4d349dda-53d4-44e7-a654-7baa344a8694",
+    "nomeEmpreendimento": "Delta Florianópolis Serviços 16",
+    "nomeEmpreendedor": "Tiago Carvalho",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T03:00:00.000Z"
+  },
+  {
+    "id": "f386b9fa-2dd7-492e-86a7-f1f6e30a1911",
+    "nomeEmpreendimento": "Ponte Florianópolis Tech 17",
+    "nomeEmpreendedor": "Ursula Rocha",
+    "municipio": "Florianópolis",
+    "segmento": "Agronegócio",
+    "contato": "florianopolis-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T04:00:00.000Z"
+  },
+  {
+    "id": "12eaf8f3-9389-4e62-895d-a52b797b4093",
+    "nomeEmpreendimento": "Sinergia Florianópolis Agro 18",
+    "nomeEmpreendedor": "Vinicius Silva",
+    "municipio": "Florianópolis",
+    "segmento": "Tecnologia",
+    "contato": "florianopolis-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T05:00:00.000Z"
+  },
+  {
+    "id": "7f3aa97a-62aa-482f-8127-3ec8622780c5",
+    "nomeEmpreendimento": "Avante Florianópolis Hub 19",
+    "nomeEmpreendedor": "William Santos",
+    "municipio": "Florianópolis",
+    "segmento": "Comércio",
+    "contato": "florianopolis-19@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T06:00:00.000Z"
+  },
+  {
+    "id": "ecd583ee-e123-4c50-a766-fb4957059d5f",
+    "nomeEmpreendimento": "Prisma Florianópolis Center 20",
+    "nomeEmpreendedor": "Yasmin Oliveira",
+    "municipio": "Florianópolis",
+    "segmento": "Indústria",
+    "contato": "florianopolis-20@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T07:00:00.000Z"
+  },
+  {
+    "id": "2552fdab-dcfc-4995-8885-fd35325837ca",
+    "nomeEmpreendimento": "Núcleo Florianópolis Empreendimentos 21",
+    "nomeEmpreendedor": "Ana Souza",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-21@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T08:00:00.000Z"
+  },
+  {
+    "id": "f507def9-399a-4d96-9f04-cbc1215bac72",
+    "nomeEmpreendimento": "Atlas Florianópolis Soluções 22",
+    "nomeEmpreendedor": "Bruno Costa",
+    "municipio": "Florianópolis",
+    "segmento": "Agronegócio",
+    "contato": "florianopolis-22@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T09:00:00.000Z"
+  },
+  {
+    "id": "f62f9262-c2a4-475a-985a-afa4f0d6e478",
+    "nomeEmpreendimento": "Polo Florianópolis Negócios 23",
+    "nomeEmpreendedor": "Carla Pereira",
+    "municipio": "Florianópolis",
+    "segmento": "Tecnologia",
+    "contato": "florianopolis-23@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T10:00:00.000Z"
+  },
+  {
+    "id": "4eedec53-58bb-4f3d-a923-656b217ea243",
+    "nomeEmpreendimento": "Conecta Florianópolis Comercial 24",
+    "nomeEmpreendedor": "Diego Rodrigues",
+    "municipio": "Florianópolis",
+    "segmento": "Comércio",
+    "contato": "florianopolis-24@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T11:00:00.000Z"
+  },
+  {
+    "id": "01db0d77-666a-4f68-8c8e-7adb90724374",
+    "nomeEmpreendimento": "Horizonte Florianópolis Industrial 25",
+    "nomeEmpreendedor": "Eduarda Almeida",
+    "municipio": "Florianópolis",
+    "segmento": "Indústria",
+    "contato": "florianopolis-25@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-04-06T12:00:00.000Z"
+  },
+  {
+    "id": "0ea64157-de20-4f70-8438-8fcb403aaff6",
+    "nomeEmpreendimento": "Origem Florianópolis Serviços 26",
+    "nomeEmpreendedor": "Felipe Nunes",
+    "municipio": "Florianópolis",
+    "segmento": "Serviços",
+    "contato": "florianopolis-26@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-04-06T13:00:00.000Z"
+  },
+  {
+    "id": "a88ac691-0c63-4860-b986-c5fb65758fdc",
+    "nomeEmpreendimento": "Vértice Blumenau Tech 01",
+    "nomeEmpreendedor": "Giovana Mendes",
+    "municipio": "Blumenau",
+    "segmento": "Agronegócio",
+    "contato": "blumenau-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-15T14:00:00.000Z"
+  },
+  {
+    "id": "fef68967-10cd-495f-a013-155e581dd53c",
+    "nomeEmpreendimento": "Delta Blumenau Agro 02",
+    "nomeEmpreendedor": "Hugo Lima",
+    "municipio": "Blumenau",
+    "segmento": "Tecnologia",
+    "contato": "blumenau-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-15T15:00:00.000Z"
+  },
+  {
+    "id": "e9dd541c-1173-4fba-b07e-dce119abceee",
+    "nomeEmpreendimento": "Ponte Blumenau Hub 03",
+    "nomeEmpreendedor": "Isabela Martins",
+    "municipio": "Blumenau",
+    "segmento": "Comércio",
+    "contato": "blumenau-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-15T16:00:00.000Z"
+  },
+  {
+    "id": "324ea706-1c49-40a3-9e56-a87796829c9e",
+    "nomeEmpreendimento": "Sinergia Blumenau Center 04",
+    "nomeEmpreendedor": "João Gomes",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "blumenau-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-15T17:00:00.000Z"
+  },
+  {
+    "id": "e3c5f547-8ac9-49e4-a3ec-e191230e2595",
+    "nomeEmpreendimento": "Avante Blumenau Empreendimentos 05",
+    "nomeEmpreendedor": "Karen Ribeiro",
+    "municipio": "Blumenau",
+    "segmento": "Serviços",
+    "contato": "blumenau-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-15T18:00:00.000Z"
+  },
+  {
+    "id": "f61ad21b-c056-4f4d-8bbf-c1786fe20826",
+    "nomeEmpreendimento": "Prisma Blumenau Soluções 06",
+    "nomeEmpreendedor": "Lucas Carvalho",
+    "municipio": "Blumenau",
+    "segmento": "Agronegócio",
+    "contato": "blumenau-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-15T19:00:00.000Z"
+  },
+  {
+    "id": "c37b93ea-c2c1-4c32-a048-b8bcc621b3cd",
+    "nomeEmpreendimento": "Núcleo Blumenau Negócios 07",
+    "nomeEmpreendedor": "Mariana Rocha",
+    "municipio": "Blumenau",
+    "segmento": "Tecnologia",
+    "contato": "blumenau-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-15T20:00:00.000Z"
+  },
+  {
+    "id": "6d291d84-75a3-48c5-8f91-02472b36c44c",
+    "nomeEmpreendimento": "Atlas Blumenau Comercial 08",
+    "nomeEmpreendedor": "Nicolas Silva",
+    "municipio": "Blumenau",
+    "segmento": "Comércio",
+    "contato": "blumenau-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-15T21:00:00.000Z"
+  },
+  {
+    "id": "93cc321b-ab92-4234-8425-62f06834403b",
+    "nomeEmpreendimento": "Polo Blumenau Industrial 09",
+    "nomeEmpreendedor": "Olivia Santos",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "blumenau-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-15T22:00:00.000Z"
+  },
+  {
+    "id": "139dd65e-dda8-4ddd-9f89-872cb596ae59",
+    "nomeEmpreendimento": "Conecta Blumenau Serviços 10",
+    "nomeEmpreendedor": "Paulo Oliveira",
+    "municipio": "Blumenau",
+    "segmento": "Serviços",
+    "contato": "blumenau-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-15T23:00:00.000Z"
+  },
+  {
+    "id": "7e3a9e62-b82f-41ac-a514-1e8e43a42b9a",
+    "nomeEmpreendimento": "Horizonte Blumenau Tech 11",
+    "nomeEmpreendedor": "Queila Souza",
+    "municipio": "Blumenau",
+    "segmento": "Agronegócio",
+    "contato": "blumenau-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T00:00:00.000Z"
+  },
+  {
+    "id": "7fa1f223-2251-4218-80c4-32d9306a603b",
+    "nomeEmpreendimento": "Origem Blumenau Agro 12",
+    "nomeEmpreendedor": "Rafael Costa",
+    "municipio": "Blumenau",
+    "segmento": "Tecnologia",
+    "contato": "blumenau-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T01:00:00.000Z"
+  },
+  {
+    "id": "950510a0-75e3-422f-ad7d-963b4b1129c4",
+    "nomeEmpreendimento": "Vértice Blumenau Hub 13",
+    "nomeEmpreendedor": "Sara Pereira",
+    "municipio": "Blumenau",
+    "segmento": "Comércio",
+    "contato": "blumenau-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T02:00:00.000Z"
+  },
+  {
+    "id": "6862cd44-409f-4de4-8e64-9c809c9d3ff7",
+    "nomeEmpreendimento": "Delta Blumenau Center 14",
+    "nomeEmpreendedor": "Tiago Rodrigues",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "blumenau-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T03:00:00.000Z"
+  },
+  {
+    "id": "f813f238-eb8c-45bc-ad85-a0138c3b8549",
+    "nomeEmpreendimento": "Ponte Blumenau Empreendimentos 15",
+    "nomeEmpreendedor": "Ursula Almeida",
+    "municipio": "Blumenau",
+    "segmento": "Serviços",
+    "contato": "blumenau-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T04:00:00.000Z"
+  },
+  {
+    "id": "bf89f4ec-2cb8-4eac-bcf9-79f6498eb2d5",
+    "nomeEmpreendimento": "Sinergia Blumenau Soluções 16",
+    "nomeEmpreendedor": "Vinicius Nunes",
+    "municipio": "Blumenau",
+    "segmento": "Agronegócio",
+    "contato": "blumenau-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T05:00:00.000Z"
+  },
+  {
+    "id": "63d7d3df-49ae-4190-acef-3b43d7e9d3d3",
+    "nomeEmpreendimento": "Avante Blumenau Negócios 17",
+    "nomeEmpreendedor": "William Mendes",
+    "municipio": "Blumenau",
+    "segmento": "Tecnologia",
+    "contato": "blumenau-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T06:00:00.000Z"
+  },
+  {
+    "id": "603aad8e-3e48-477e-841a-1e452e1e9d0a",
+    "nomeEmpreendimento": "Prisma Blumenau Comercial 18",
+    "nomeEmpreendedor": "Yasmin Lima",
+    "municipio": "Blumenau",
+    "segmento": "Comércio",
+    "contato": "blumenau-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T07:00:00.000Z"
+  },
+  {
+    "id": "94c2166b-59a9-4d9e-9a87-9a16821546bb",
+    "nomeEmpreendimento": "Núcleo Blumenau Industrial 19",
+    "nomeEmpreendedor": "Ana Martins",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "blumenau-19@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T08:00:00.000Z"
+  },
+  {
+    "id": "053d9af9-b195-42d5-9fb7-5d4380c67584",
+    "nomeEmpreendimento": "Atlas Blumenau Serviços 20",
+    "nomeEmpreendedor": "Bruno Gomes",
+    "municipio": "Blumenau",
+    "segmento": "Serviços",
+    "contato": "blumenau-20@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T09:00:00.000Z"
+  },
+  {
+    "id": "e5dfbcdc-42f4-4b0e-a2c8-610fdd00eaa4",
+    "nomeEmpreendimento": "Polo Blumenau Tech 21",
+    "nomeEmpreendedor": "Carla Ribeiro",
+    "municipio": "Blumenau",
+    "segmento": "Agronegócio",
+    "contato": "blumenau-21@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T10:00:00.000Z"
+  },
+  {
+    "id": "c8867de8-3894-4dde-8237-2e4fb12f44d6",
+    "nomeEmpreendimento": "Conecta Blumenau Agro 22",
+    "nomeEmpreendedor": "Diego Carvalho",
+    "municipio": "Blumenau",
+    "segmento": "Tecnologia",
+    "contato": "blumenau-22@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T11:00:00.000Z"
+  },
+  {
+    "id": "376b479b-a17d-4520-8f3e-8161ec772f69",
+    "nomeEmpreendimento": "Horizonte Blumenau Hub 23",
+    "nomeEmpreendedor": "Eduarda Rocha",
+    "municipio": "Blumenau",
+    "segmento": "Comércio",
+    "contato": "blumenau-23@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-05-16T12:00:00.000Z"
+  },
+  {
+    "id": "43825b59-2995-40e2-9aba-ddaad8f9d9ad",
+    "nomeEmpreendimento": "Origem Blumenau Center 24",
+    "nomeEmpreendedor": "Felipe Silva",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "blumenau-24@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-05-16T13:00:00.000Z"
+  },
+  {
+    "id": "17ecea0d-6a53-432a-b81f-c20d490b2f05",
+    "nomeEmpreendimento": "Vértice São José Empreendimentos 01",
+    "nomeEmpreendedor": "Giovana Santos",
+    "municipio": "São José",
+    "segmento": "Serviços",
+    "contato": "sao-jose-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-21T14:00:00.000Z"
+  },
+  {
+    "id": "4ecdf956-f55a-4b79-8105-a62b467543d2",
+    "nomeEmpreendimento": "Delta São José Soluções 02",
+    "nomeEmpreendedor": "Hugo Oliveira",
+    "municipio": "São José",
+    "segmento": "Agronegócio",
+    "contato": "sao-jose-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-21T15:00:00.000Z"
+  },
+  {
+    "id": "ba0b1e7b-a960-465c-821e-2ccc73624ae2",
+    "nomeEmpreendimento": "Ponte São José Negócios 03",
+    "nomeEmpreendedor": "Isabela Souza",
+    "municipio": "São José",
+    "segmento": "Tecnologia",
+    "contato": "sao-jose-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-21T16:00:00.000Z"
+  },
+  {
+    "id": "52509edb-6fc8-433c-a709-525b25758eb7",
+    "nomeEmpreendimento": "Sinergia São José Comercial 04",
+    "nomeEmpreendedor": "João Costa",
+    "municipio": "São José",
+    "segmento": "Comércio",
+    "contato": "sao-jose-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-21T17:00:00.000Z"
+  },
+  {
+    "id": "f7031fab-a0e4-4401-89db-fdd151d2a5f0",
+    "nomeEmpreendimento": "Avante São José Industrial 05",
+    "nomeEmpreendedor": "Karen Pereira",
+    "municipio": "São José",
+    "segmento": "Indústria",
+    "contato": "sao-jose-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-21T18:00:00.000Z"
+  },
+  {
+    "id": "dc8799e3-faf3-4c3f-bf07-dd2d71b1e959",
+    "nomeEmpreendimento": "Prisma São José Serviços 06",
+    "nomeEmpreendedor": "Lucas Rodrigues",
+    "municipio": "São José",
+    "segmento": "Serviços",
+    "contato": "sao-jose-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-21T19:00:00.000Z"
+  },
+  {
+    "id": "da505ae5-b7bd-4742-a080-09f3d9ede3f7",
+    "nomeEmpreendimento": "Núcleo São José Tech 07",
+    "nomeEmpreendedor": "Mariana Almeida",
+    "municipio": "São José",
+    "segmento": "Agronegócio",
+    "contato": "sao-jose-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-21T20:00:00.000Z"
+  },
+  {
+    "id": "2733a792-de88-49e5-bff0-47f0968bb333",
+    "nomeEmpreendimento": "Atlas São José Agro 08",
+    "nomeEmpreendedor": "Nicolas Nunes",
+    "municipio": "São José",
+    "segmento": "Tecnologia",
+    "contato": "sao-jose-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-21T21:00:00.000Z"
+  },
+  {
+    "id": "77595758-99fa-41c1-8285-a0918ff4fc7d",
+    "nomeEmpreendimento": "Polo São José Hub 09",
+    "nomeEmpreendedor": "Olivia Mendes",
+    "municipio": "São José",
+    "segmento": "Comércio",
+    "contato": "sao-jose-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-21T22:00:00.000Z"
+  },
+  {
+    "id": "b9516fd0-0c06-416d-a983-b94d31a0af02",
+    "nomeEmpreendimento": "Conecta São José Center 10",
+    "nomeEmpreendedor": "Paulo Lima",
+    "municipio": "São José",
+    "segmento": "Indústria",
+    "contato": "sao-jose-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-21T23:00:00.000Z"
+  },
+  {
+    "id": "c3739887-b8e7-413b-9355-76deff8b9563",
+    "nomeEmpreendimento": "Horizonte São José Empreendimentos 11",
+    "nomeEmpreendedor": "Queila Martins",
+    "municipio": "São José",
+    "segmento": "Serviços",
+    "contato": "sao-jose-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T00:00:00.000Z"
+  },
+  {
+    "id": "58fac666-b9ca-4463-a1ce-56a46d8735c3",
+    "nomeEmpreendimento": "Origem São José Soluções 12",
+    "nomeEmpreendedor": "Rafael Gomes",
+    "municipio": "São José",
+    "segmento": "Agronegócio",
+    "contato": "sao-jose-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T01:00:00.000Z"
+  },
+  {
+    "id": "e3bb9a77-95ae-4f85-9a45-26efbae5d951",
+    "nomeEmpreendimento": "Vértice São José Negócios 13",
+    "nomeEmpreendedor": "Sara Ribeiro",
+    "municipio": "São José",
+    "segmento": "Tecnologia",
+    "contato": "sao-jose-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T02:00:00.000Z"
+  },
+  {
+    "id": "62390249-7f94-4ae5-8c9d-8b78aedf0748",
+    "nomeEmpreendimento": "Delta São José Comercial 14",
+    "nomeEmpreendedor": "Tiago Carvalho",
+    "municipio": "São José",
+    "segmento": "Comércio",
+    "contato": "sao-jose-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T03:00:00.000Z"
+  },
+  {
+    "id": "b6e3dfaa-5ccf-4d69-8826-b8d0d523d957",
+    "nomeEmpreendimento": "Ponte São José Industrial 15",
+    "nomeEmpreendedor": "Ursula Rocha",
+    "municipio": "São José",
+    "segmento": "Indústria",
+    "contato": "sao-jose-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T04:00:00.000Z"
+  },
+  {
+    "id": "2f1a39a6-8e45-4441-9061-4f12822fdbd9",
+    "nomeEmpreendimento": "Sinergia São José Serviços 16",
+    "nomeEmpreendedor": "Vinicius Silva",
+    "municipio": "São José",
+    "segmento": "Serviços",
+    "contato": "sao-jose-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T05:00:00.000Z"
+  },
+  {
+    "id": "b3085c6b-e7ff-4c10-ad9d-99819fd670c2",
+    "nomeEmpreendimento": "Avante São José Tech 17",
+    "nomeEmpreendedor": "William Santos",
+    "municipio": "São José",
+    "segmento": "Agronegócio",
+    "contato": "sao-jose-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T06:00:00.000Z"
+  },
+  {
+    "id": "53823065-b320-4f5e-973d-4cf7b58cf649",
+    "nomeEmpreendimento": "Prisma São José Agro 18",
+    "nomeEmpreendedor": "Yasmin Oliveira",
+    "municipio": "São José",
+    "segmento": "Tecnologia",
+    "contato": "sao-jose-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T07:00:00.000Z"
+  },
+  {
+    "id": "24a781e6-f968-4c0f-ab7d-d974e83e59f8",
+    "nomeEmpreendimento": "Núcleo São José Hub 19",
+    "nomeEmpreendedor": "Ana Souza",
+    "municipio": "São José",
+    "segmento": "Comércio",
+    "contato": "sao-jose-19@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T08:00:00.000Z"
+  },
+  {
+    "id": "07764cce-492f-426b-b669-641b4dd478f1",
+    "nomeEmpreendimento": "Atlas São José Center 20",
+    "nomeEmpreendedor": "Bruno Costa",
+    "municipio": "São José",
+    "segmento": "Indústria",
+    "contato": "sao-jose-20@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T09:00:00.000Z"
+  },
+  {
+    "id": "417fe005-fd52-45b6-bb57-f121e7ee6318",
+    "nomeEmpreendimento": "Polo São José Empreendimentos 21",
+    "nomeEmpreendedor": "Carla Pereira",
+    "municipio": "São José",
+    "segmento": "Serviços",
+    "contato": "sao-jose-21@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-06-22T10:00:00.000Z"
+  },
+  {
+    "id": "bb0a5253-27e2-4c85-a965-2dbe6b39c00c",
+    "nomeEmpreendimento": "Conecta São José Soluções 22",
+    "nomeEmpreendedor": "Diego Rodrigues",
+    "municipio": "São José",
+    "segmento": "Agronegócio",
+    "contato": "sao-jose-22@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-06-22T11:00:00.000Z"
+  },
+  {
+    "id": "3278ff3f-420e-4048-a898-7e807924f8de",
+    "nomeEmpreendimento": "Horizonte Chapecó Negócios 01",
+    "nomeEmpreendedor": "Eduarda Almeida",
+    "municipio": "Chapecó",
+    "segmento": "Tecnologia",
+    "contato": "chapeco-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T12:00:00.000Z"
+  },
+  {
+    "id": "6fe49d5d-b3b9-46d6-8bf0-f03ce1e010e9",
+    "nomeEmpreendimento": "Origem Chapecó Comercial 02",
+    "nomeEmpreendedor": "Felipe Nunes",
+    "municipio": "Chapecó",
+    "segmento": "Comércio",
+    "contato": "chapeco-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T13:00:00.000Z"
+  },
+  {
+    "id": "3f329470-a031-4c83-9ad9-5635545bea70",
+    "nomeEmpreendimento": "Vértice Chapecó Industrial 03",
+    "nomeEmpreendedor": "Giovana Mendes",
+    "municipio": "Chapecó",
+    "segmento": "Indústria",
+    "contato": "chapeco-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T14:00:00.000Z"
+  },
+  {
+    "id": "551b063a-7857-465b-99eb-bc9a262df982",
+    "nomeEmpreendimento": "Delta Chapecó Serviços 04",
+    "nomeEmpreendedor": "Hugo Lima",
+    "municipio": "Chapecó",
+    "segmento": "Serviços",
+    "contato": "chapeco-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T15:00:00.000Z"
+  },
+  {
+    "id": "91495a38-9765-4643-9f68-1a0c9f93a1a6",
+    "nomeEmpreendimento": "Ponte Chapecó Tech 05",
+    "nomeEmpreendedor": "Isabela Martins",
+    "municipio": "Chapecó",
+    "segmento": "Agronegócio",
+    "contato": "chapeco-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T16:00:00.000Z"
+  },
+  {
+    "id": "537593ec-39c9-428d-b8d0-0b4960cc7431",
+    "nomeEmpreendimento": "Sinergia Chapecó Agro 06",
+    "nomeEmpreendedor": "João Gomes",
+    "municipio": "Chapecó",
+    "segmento": "Tecnologia",
+    "contato": "chapeco-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T17:00:00.000Z"
+  },
+  {
+    "id": "0780d83c-661d-4972-9df8-149e8a9f2479",
+    "nomeEmpreendimento": "Avante Chapecó Hub 07",
+    "nomeEmpreendedor": "Karen Ribeiro",
+    "municipio": "Chapecó",
+    "segmento": "Comércio",
+    "contato": "chapeco-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T18:00:00.000Z"
+  },
+  {
+    "id": "1588602c-45fb-492c-a2bf-40a64258594e",
+    "nomeEmpreendimento": "Prisma Chapecó Center 08",
+    "nomeEmpreendedor": "Lucas Carvalho",
+    "municipio": "Chapecó",
+    "segmento": "Indústria",
+    "contato": "chapeco-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T19:00:00.000Z"
+  },
+  {
+    "id": "bc981518-848b-4c2a-8ef7-d6f6f4c9d7a4",
+    "nomeEmpreendimento": "Núcleo Chapecó Empreendimentos 09",
+    "nomeEmpreendedor": "Mariana Rocha",
+    "municipio": "Chapecó",
+    "segmento": "Serviços",
+    "contato": "chapeco-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T20:00:00.000Z"
+  },
+  {
+    "id": "c86aed27-7a5a-4c91-b809-b0e98e019a7f",
+    "nomeEmpreendimento": "Atlas Chapecó Soluções 10",
+    "nomeEmpreendedor": "Nicolas Silva",
+    "municipio": "Chapecó",
+    "segmento": "Agronegócio",
+    "contato": "chapeco-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T21:00:00.000Z"
+  },
+  {
+    "id": "601691f9-df2a-4f15-babb-d62b5190e4db",
+    "nomeEmpreendimento": "Polo Chapecó Negócios 11",
+    "nomeEmpreendedor": "Olivia Santos",
+    "municipio": "Chapecó",
+    "segmento": "Tecnologia",
+    "contato": "chapeco-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-25T22:00:00.000Z"
+  },
+  {
+    "id": "e79b21b9-eafc-4adf-b5ff-234ff526dfe2",
+    "nomeEmpreendimento": "Conecta Chapecó Comercial 12",
+    "nomeEmpreendedor": "Paulo Oliveira",
+    "municipio": "Chapecó",
+    "segmento": "Comércio",
+    "contato": "chapeco-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-25T23:00:00.000Z"
+  },
+  {
+    "id": "3bd59b9b-ac04-4e51-a92e-7999aab60819",
+    "nomeEmpreendimento": "Horizonte Chapecó Industrial 13",
+    "nomeEmpreendedor": "Queila Souza",
+    "municipio": "Chapecó",
+    "segmento": "Indústria",
+    "contato": "chapeco-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-26T00:00:00.000Z"
+  },
+  {
+    "id": "3e47c829-f87c-421a-93f1-4764c88b4730",
+    "nomeEmpreendimento": "Origem Chapecó Serviços 14",
+    "nomeEmpreendedor": "Rafael Costa",
+    "municipio": "Chapecó",
+    "segmento": "Serviços",
+    "contato": "chapeco-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-26T01:00:00.000Z"
+  },
+  {
+    "id": "792655b5-6de8-4d42-b0d8-f592efaff495",
+    "nomeEmpreendimento": "Vértice Chapecó Tech 15",
+    "nomeEmpreendedor": "Sara Pereira",
+    "municipio": "Chapecó",
+    "segmento": "Agronegócio",
+    "contato": "chapeco-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-26T02:00:00.000Z"
+  },
+  {
+    "id": "63e88dc4-3dc6-4aec-bf5b-70da3362b634",
+    "nomeEmpreendimento": "Delta Chapecó Agro 16",
+    "nomeEmpreendedor": "Tiago Rodrigues",
+    "municipio": "Chapecó",
+    "segmento": "Tecnologia",
+    "contato": "chapeco-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-26T03:00:00.000Z"
+  },
+  {
+    "id": "d6095f18-9ad6-49c3-ab63-31a658eed115",
+    "nomeEmpreendimento": "Ponte Chapecó Hub 17",
+    "nomeEmpreendedor": "Ursula Almeida",
+    "municipio": "Chapecó",
+    "segmento": "Comércio",
+    "contato": "chapeco-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-26T04:00:00.000Z"
+  },
+  {
+    "id": "dd5350ff-1995-40d7-a292-7020e9357242",
+    "nomeEmpreendimento": "Sinergia Chapecó Center 18",
+    "nomeEmpreendedor": "Vinicius Nunes",
+    "municipio": "Chapecó",
+    "segmento": "Indústria",
+    "contato": "chapeco-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-26T05:00:00.000Z"
+  },
+  {
+    "id": "baf29c4c-4dec-44f4-bc90-f56d32c6c7dc",
+    "nomeEmpreendimento": "Avante Chapecó Empreendimentos 19",
+    "nomeEmpreendedor": "William Mendes",
+    "municipio": "Chapecó",
+    "segmento": "Serviços",
+    "contato": "chapeco-19@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-07-26T06:00:00.000Z"
+  },
+  {
+    "id": "6f91e8e9-9109-4da9-8ff2-f99dfa6d8716",
+    "nomeEmpreendimento": "Prisma Chapecó Soluções 20",
+    "nomeEmpreendedor": "Yasmin Lima",
+    "municipio": "Chapecó",
+    "segmento": "Agronegócio",
+    "contato": "chapeco-20@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-07-26T07:00:00.000Z"
+  },
+  {
+    "id": "994ccb2b-5ef2-492c-86c7-4fe92bab580b",
+    "nomeEmpreendimento": "Núcleo Itajaí Negócios 01",
+    "nomeEmpreendedor": "Ana Martins",
+    "municipio": "Itajaí",
+    "segmento": "Tecnologia",
+    "contato": "itajai-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T08:00:00.000Z"
+  },
+  {
+    "id": "bceb2af5-0c30-4447-a5b5-546615c688d2",
+    "nomeEmpreendimento": "Atlas Itajaí Comercial 02",
+    "nomeEmpreendedor": "Bruno Gomes",
+    "municipio": "Itajaí",
+    "segmento": "Comércio",
+    "contato": "itajai-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T09:00:00.000Z"
+  },
+  {
+    "id": "bc7e6085-20d9-42b1-ad8a-07a4494578ec",
+    "nomeEmpreendimento": "Polo Itajaí Industrial 03",
+    "nomeEmpreendedor": "Carla Ribeiro",
+    "municipio": "Itajaí",
+    "segmento": "Indústria",
+    "contato": "itajai-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T10:00:00.000Z"
+  },
+  {
+    "id": "8b6dafc3-45da-4625-a8d8-35b306e8202b",
+    "nomeEmpreendimento": "Conecta Itajaí Serviços 04",
+    "nomeEmpreendedor": "Diego Carvalho",
+    "municipio": "Itajaí",
+    "segmento": "Serviços",
+    "contato": "itajai-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T11:00:00.000Z"
+  },
+  {
+    "id": "b37fc668-d980-4a6c-a873-12b748bf7662",
+    "nomeEmpreendimento": "Horizonte Itajaí Tech 05",
+    "nomeEmpreendedor": "Eduarda Rocha",
+    "municipio": "Itajaí",
+    "segmento": "Agronegócio",
+    "contato": "itajai-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T12:00:00.000Z"
+  },
+  {
+    "id": "31c8a3f7-a38f-46cb-b563-f5009bbd7de7",
+    "nomeEmpreendimento": "Origem Itajaí Agro 06",
+    "nomeEmpreendedor": "Felipe Silva",
+    "municipio": "Itajaí",
+    "segmento": "Tecnologia",
+    "contato": "itajai-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T13:00:00.000Z"
+  },
+  {
+    "id": "7e3f9394-f7d5-4e07-917c-fd34ec989774",
+    "nomeEmpreendimento": "Vértice Itajaí Hub 07",
+    "nomeEmpreendedor": "Giovana Santos",
+    "municipio": "Itajaí",
+    "segmento": "Comércio",
+    "contato": "itajai-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T14:00:00.000Z"
+  },
+  {
+    "id": "a8163a23-b7b8-4028-b25e-dfa5d6efafae",
+    "nomeEmpreendimento": "Delta Itajaí Center 08",
+    "nomeEmpreendedor": "Hugo Oliveira",
+    "municipio": "Itajaí",
+    "segmento": "Indústria",
+    "contato": "itajai-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T15:00:00.000Z"
+  },
+  {
+    "id": "41cdbae6-39bb-46f7-a0af-401c1a3a7623",
+    "nomeEmpreendimento": "Ponte Itajaí Empreendimentos 09",
+    "nomeEmpreendedor": "Isabela Souza",
+    "municipio": "Itajaí",
+    "segmento": "Serviços",
+    "contato": "itajai-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T16:00:00.000Z"
+  },
+  {
+    "id": "e4525511-f52b-47ca-86d0-d080ee5d1c80",
+    "nomeEmpreendimento": "Sinergia Itajaí Soluções 10",
+    "nomeEmpreendedor": "João Costa",
+    "municipio": "Itajaí",
+    "segmento": "Agronegócio",
+    "contato": "itajai-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T17:00:00.000Z"
+  },
+  {
+    "id": "734f8a29-0c2f-4bc2-b8bf-33f0e83cfafb",
+    "nomeEmpreendimento": "Avante Itajaí Negócios 11",
+    "nomeEmpreendedor": "Karen Pereira",
+    "municipio": "Itajaí",
+    "segmento": "Tecnologia",
+    "contato": "itajai-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T18:00:00.000Z"
+  },
+  {
+    "id": "591a5ef7-8dea-4978-b9b2-63b355e49221",
+    "nomeEmpreendimento": "Prisma Itajaí Comercial 12",
+    "nomeEmpreendedor": "Lucas Rodrigues",
+    "municipio": "Itajaí",
+    "segmento": "Comércio",
+    "contato": "itajai-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T19:00:00.000Z"
+  },
+  {
+    "id": "f64c6c8e-0412-4382-926e-e7d7d96368ef",
+    "nomeEmpreendimento": "Núcleo Itajaí Industrial 13",
+    "nomeEmpreendedor": "Mariana Almeida",
+    "municipio": "Itajaí",
+    "segmento": "Indústria",
+    "contato": "itajai-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T20:00:00.000Z"
+  },
+  {
+    "id": "a8e11dab-7319-4b40-ab4c-f27936190461",
+    "nomeEmpreendimento": "Atlas Itajaí Serviços 14",
+    "nomeEmpreendedor": "Nicolas Nunes",
+    "municipio": "Itajaí",
+    "segmento": "Serviços",
+    "contato": "itajai-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T21:00:00.000Z"
+  },
+  {
+    "id": "0ee3e283-be7f-45eb-9710-dc2ea511911e",
+    "nomeEmpreendimento": "Polo Itajaí Tech 15",
+    "nomeEmpreendedor": "Olivia Mendes",
+    "municipio": "Itajaí",
+    "segmento": "Agronegócio",
+    "contato": "itajai-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-25T22:00:00.000Z"
+  },
+  {
+    "id": "422f490d-e301-40d5-9e07-13364a452a12",
+    "nomeEmpreendimento": "Conecta Itajaí Agro 16",
+    "nomeEmpreendedor": "Paulo Lima",
+    "municipio": "Itajaí",
+    "segmento": "Tecnologia",
+    "contato": "itajai-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-25T23:00:00.000Z"
+  },
+  {
+    "id": "a1226ca3-f22e-465e-ad5a-3b116884b192",
+    "nomeEmpreendimento": "Horizonte Itajaí Hub 17",
+    "nomeEmpreendedor": "Queila Martins",
+    "municipio": "Itajaí",
+    "segmento": "Comércio",
+    "contato": "itajai-17@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "045390e4-06bf-45f6-ab74-67c1fa5bd030",
+    "nomeEmpreendimento": "Origem Itajaí Center 18",
+    "nomeEmpreendedor": "Rafael Gomes",
+    "municipio": "Itajaí",
+    "segmento": "Indústria",
+    "contato": "itajai-18@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-08-26T01:00:00.000Z"
+  },
+  {
+    "id": "21268619-7396-4816-aefa-1ad62fd7cd67",
+    "nomeEmpreendimento": "Vértice Criciúma Empreendimentos 01",
+    "nomeEmpreendedor": "Sara Ribeiro",
+    "municipio": "Criciúma",
+    "segmento": "Serviços",
+    "contato": "criciuma-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T02:00:00.000Z"
+  },
+  {
+    "id": "cd0b5e40-dc3f-47ad-93b8-26e4262770ff",
+    "nomeEmpreendimento": "Delta Criciúma Soluções 02",
+    "nomeEmpreendedor": "Tiago Carvalho",
+    "municipio": "Criciúma",
+    "segmento": "Agronegócio",
+    "contato": "criciuma-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T03:00:00.000Z"
+  },
+  {
+    "id": "a68c09bc-14ac-4faf-8182-36bd42aefc87",
+    "nomeEmpreendimento": "Ponte Criciúma Negócios 03",
+    "nomeEmpreendedor": "Ursula Rocha",
+    "municipio": "Criciúma",
+    "segmento": "Tecnologia",
+    "contato": "criciuma-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T04:00:00.000Z"
+  },
+  {
+    "id": "19ad713a-d56d-4591-b977-e932d1fd2b16",
+    "nomeEmpreendimento": "Sinergia Criciúma Comercial 04",
+    "nomeEmpreendedor": "Vinicius Silva",
+    "municipio": "Criciúma",
+    "segmento": "Comércio",
+    "contato": "criciuma-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T05:00:00.000Z"
+  },
+  {
+    "id": "7c19c24c-921f-4459-9c28-d79cd98ca0de",
+    "nomeEmpreendimento": "Avante Criciúma Industrial 05",
+    "nomeEmpreendedor": "William Santos",
+    "municipio": "Criciúma",
+    "segmento": "Indústria",
+    "contato": "criciuma-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T06:00:00.000Z"
+  },
+  {
+    "id": "6f22dc24-d1be-43de-8262-4d9a892682ec",
+    "nomeEmpreendimento": "Prisma Criciúma Serviços 06",
+    "nomeEmpreendedor": "Yasmin Oliveira",
+    "municipio": "Criciúma",
+    "segmento": "Serviços",
+    "contato": "criciuma-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T07:00:00.000Z"
+  },
+  {
+    "id": "87ca26c4-fa5d-416f-af7a-2c0e7696661d",
+    "nomeEmpreendimento": "Núcleo Criciúma Tech 07",
+    "nomeEmpreendedor": "Ana Souza",
+    "municipio": "Criciúma",
+    "segmento": "Agronegócio",
+    "contato": "criciuma-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T08:00:00.000Z"
+  },
+  {
+    "id": "97b2946c-21d9-4de0-94e0-a76320dbb21a",
+    "nomeEmpreendimento": "Atlas Criciúma Agro 08",
+    "nomeEmpreendedor": "Bruno Costa",
+    "municipio": "Criciúma",
+    "segmento": "Tecnologia",
+    "contato": "criciuma-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T09:00:00.000Z"
+  },
+  {
+    "id": "0464fe88-f598-4400-b6c8-e8d113a63134",
+    "nomeEmpreendimento": "Polo Criciúma Hub 09",
+    "nomeEmpreendedor": "Carla Pereira",
+    "municipio": "Criciúma",
+    "segmento": "Comércio",
+    "contato": "criciuma-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T10:00:00.000Z"
+  },
+  {
+    "id": "f8866f53-f5f1-4029-9c24-212239500de8",
+    "nomeEmpreendimento": "Conecta Criciúma Center 10",
+    "nomeEmpreendedor": "Diego Rodrigues",
+    "municipio": "Criciúma",
+    "segmento": "Indústria",
+    "contato": "criciuma-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T11:00:00.000Z"
+  },
+  {
+    "id": "131ec3e4-28c8-4d83-abf5-6319eabc2c05",
+    "nomeEmpreendimento": "Horizonte Criciúma Empreendimentos 11",
+    "nomeEmpreendedor": "Eduarda Almeida",
+    "municipio": "Criciúma",
+    "segmento": "Serviços",
+    "contato": "criciuma-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T12:00:00.000Z"
+  },
+  {
+    "id": "f4d5d856-6550-4302-99d1-48189c83be6d",
+    "nomeEmpreendimento": "Origem Criciúma Soluções 12",
+    "nomeEmpreendedor": "Felipe Nunes",
+    "municipio": "Criciúma",
+    "segmento": "Agronegócio",
+    "contato": "criciuma-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T13:00:00.000Z"
+  },
+  {
+    "id": "8408c550-2448-452c-b2cf-e024427af33e",
+    "nomeEmpreendimento": "Vértice Criciúma Negócios 13",
+    "nomeEmpreendedor": "Giovana Mendes",
+    "municipio": "Criciúma",
+    "segmento": "Tecnologia",
+    "contato": "criciuma-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T14:00:00.000Z"
+  },
+  {
+    "id": "98f87af0-a52d-4b7e-b6e2-b54d9f186cbf",
+    "nomeEmpreendimento": "Delta Criciúma Comercial 14",
+    "nomeEmpreendedor": "Hugo Lima",
+    "municipio": "Criciúma",
+    "segmento": "Comércio",
+    "contato": "criciuma-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T15:00:00.000Z"
+  },
+  {
+    "id": "7344cb2f-9cf6-4d2a-862c-82a01a7d5766",
+    "nomeEmpreendimento": "Ponte Criciúma Industrial 15",
+    "nomeEmpreendedor": "Isabela Martins",
+    "municipio": "Criciúma",
+    "segmento": "Indústria",
+    "contato": "criciuma-15@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-09-22T16:00:00.000Z"
+  },
+  {
+    "id": "eb2b48d1-1db0-4587-a0f3-e05961cf49be",
+    "nomeEmpreendimento": "Sinergia Criciúma Serviços 16",
+    "nomeEmpreendedor": "João Gomes",
+    "municipio": "Criciúma",
+    "segmento": "Serviços",
+    "contato": "criciuma-16@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-09-22T17:00:00.000Z"
+  },
+  {
+    "id": "2d9af7ab-b7ea-4779-9db5-20c2e958c57d",
+    "nomeEmpreendimento": "Avante Lages Tech 01",
+    "nomeEmpreendedor": "Karen Ribeiro",
+    "municipio": "Lages",
+    "segmento": "Agronegócio",
+    "contato": "lages-01@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-16T18:00:00.000Z"
+  },
+  {
+    "id": "f157011d-b212-478d-8023-61b2d17ff3fd",
+    "nomeEmpreendimento": "Prisma Lages Agro 02",
+    "nomeEmpreendedor": "Lucas Carvalho",
+    "municipio": "Lages",
+    "segmento": "Tecnologia",
+    "contato": "lages-02@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-16T19:00:00.000Z"
+  },
+  {
+    "id": "4ef60dee-1414-4376-aa2b-425ae8b6697f",
+    "nomeEmpreendimento": "Núcleo Lages Hub 03",
+    "nomeEmpreendedor": "Mariana Rocha",
+    "municipio": "Lages",
+    "segmento": "Comércio",
+    "contato": "lages-03@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-16T20:00:00.000Z"
+  },
+  {
+    "id": "5a0839d8-fb5e-453c-8372-0425e5b8bbe8",
+    "nomeEmpreendimento": "Atlas Lages Center 04",
+    "nomeEmpreendedor": "Nicolas Silva",
+    "municipio": "Lages",
+    "segmento": "Indústria",
+    "contato": "lages-04@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-16T21:00:00.000Z"
+  },
+  {
+    "id": "149c3d74-8f17-4a8c-831d-71f1452b3414",
+    "nomeEmpreendimento": "Polo Lages Empreendimentos 05",
+    "nomeEmpreendedor": "Olivia Santos",
+    "municipio": "Lages",
+    "segmento": "Serviços",
+    "contato": "lages-05@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-16T22:00:00.000Z"
+  },
+  {
+    "id": "d853133f-fc6a-4ed9-b04d-085141453bcd",
+    "nomeEmpreendimento": "Conecta Lages Soluções 06",
+    "nomeEmpreendedor": "Paulo Oliveira",
+    "municipio": "Lages",
+    "segmento": "Agronegócio",
+    "contato": "lages-06@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-16T23:00:00.000Z"
+  },
+  {
+    "id": "54d097b1-75dc-4932-86a6-c26847ae8896",
+    "nomeEmpreendimento": "Horizonte Lages Negócios 07",
+    "nomeEmpreendedor": "Queila Souza",
+    "municipio": "Lages",
+    "segmento": "Tecnologia",
+    "contato": "lages-07@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-17T00:00:00.000Z"
+  },
+  {
+    "id": "c29527b3-dfa2-4e91-bf5d-97d878b81751",
+    "nomeEmpreendimento": "Origem Lages Comercial 08",
+    "nomeEmpreendedor": "Rafael Costa",
+    "municipio": "Lages",
+    "segmento": "Comércio",
+    "contato": "lages-08@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-17T01:00:00.000Z"
+  },
+  {
+    "id": "e26a3975-463e-48b7-9852-8c179b3c787b",
+    "nomeEmpreendimento": "Vértice Lages Industrial 09",
+    "nomeEmpreendedor": "Sara Pereira",
+    "municipio": "Lages",
+    "segmento": "Indústria",
+    "contato": "lages-09@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-17T02:00:00.000Z"
+  },
+  {
+    "id": "3370fe30-8ad3-4837-98bc-6694a84019ca",
+    "nomeEmpreendimento": "Delta Lages Serviços 10",
+    "nomeEmpreendedor": "Tiago Rodrigues",
+    "municipio": "Lages",
+    "segmento": "Serviços",
+    "contato": "lages-10@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-17T03:00:00.000Z"
+  },
+  {
+    "id": "792dff77-4ec1-45f5-944d-6df342d78521",
+    "nomeEmpreendimento": "Ponte Lages Tech 11",
+    "nomeEmpreendedor": "Ursula Almeida",
+    "municipio": "Lages",
+    "segmento": "Agronegócio",
+    "contato": "lages-11@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-17T04:00:00.000Z"
+  },
+  {
+    "id": "43a305d1-4c39-42dd-a568-dd4b3988953a",
+    "nomeEmpreendimento": "Sinergia Lages Agro 12",
+    "nomeEmpreendedor": "Vinicius Nunes",
+    "municipio": "Lages",
+    "segmento": "Tecnologia",
+    "contato": "lages-12@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-17T05:00:00.000Z"
+  },
+  {
+    "id": "cd15e42e-0209-4a2a-a4af-35aa7de368b5",
+    "nomeEmpreendimento": "Avante Lages Hub 13",
+    "nomeEmpreendedor": "William Mendes",
+    "municipio": "Lages",
+    "segmento": "Comércio",
+    "contato": "lages-13@demo-empreendimentos.com.br",
+    "status": "ativo",
+    "createdAt": "2026-10-17T06:00:00.000Z"
+  },
+  {
+    "id": "34ba195a-9f11-4069-99fa-1d36a9ee3f5d",
+    "nomeEmpreendimento": "Prisma Lages Center 14",
+    "nomeEmpreendedor": "Yasmin Lima",
+    "municipio": "Lages",
+    "segmento": "Indústria",
+    "contato": "lages-14@demo-empreendimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-10-17T07:00:00.000Z"
   }
 ]
