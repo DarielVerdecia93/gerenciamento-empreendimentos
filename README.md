@@ -42,14 +42,17 @@ Cada empreendimento contém os campos:
 - Barras de progresso em operações de carregamento
 - Interface responsiva
 
-## Armazenamento em JSON
+## Armazenamento e persistência
 
-Os dados são persistidos localmente em arquivos JSON, sem banco de dados externo.
+O projeto utiliza arquivo JSON local como base de dados para fins acadêmicos e de prototipação.
+
+- Em ambiente local, os dados podem ser manipulados para validação das funcionalidades de CRUD.
+- Em ambiente hosteado de demonstração, os dados devem ser tratados como base de consulta.
+
+Arquivos locais:
 
 - Empreendimentos: `data/empreendimentos.json`
 - Usuários de autenticação: `data/usuarios.json`
-
-Esse formato facilita execução local, inspeção direta dos registros e uso em contexto acadêmico/protótipo.
 
 ## Tecnologias utilizadas
 
@@ -84,14 +87,15 @@ Acesse em: `http://localhost:3000`
 
 Para fins de validação, o projeto está disponível em:
 
-- `https://gerenciamento-empreendimentos.vercel.app`
+- `https://gerenciamento-empreendimentos.vercel.app` 
+
+> **Nota técnica (contexto acadêmico):** no sistema hosteado de demonstração, a base de dados deve ser considerada **não editável** para fins de avaliação funcional.
+>
+> Dessa forma, o uso recomendado é voltado à consulta, busca, filtros, paginação e análise dos registros já existentes. Em termos práticos, inclusões, edições e exclusões não são tratadas como persistentes no ambiente publicado.
+>
+> Essa diretriz preserva a consistência do cenário de teste e evita divergências entre execuções, mantendo o foco didático na navegação e na interpretação dos dados.
 
 Credenciais para teste:
-
-- Usuário: `admin`
-- Senha: `admin123`
-
-## Credenciais padrão
 
 - Usuário: `admin`
 - Senha: `admin123`
