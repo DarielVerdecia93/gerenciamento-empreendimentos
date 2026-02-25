@@ -1,70 +1,97 @@
 # Gerenciamento de Empreendimentos (Santa Catarina)
 
-Sistema web desenvolvido em Next.js para cadastro, análise e gestão de empreendimentos.
-O projeto atende ao contexto de organização de empreendedores com foco nos municípios de Santa Catarina,
-permitindo operações de CRUD, autenticação básica, visualização analítica e experiência responsiva.
+Aplicação web desenvolvida em Next.js para apoiar o cadastro, organização e acompanhamento de empreendimentos em municípios de Santa Catarina. A proposta do sistema é centralizar informações de empreendedores em uma interface única, com visão operacional (cadastro e manutenção) e visão analítica (resumo com indicadores e gráficos), permitindo acompanhamento rápido do cenário local.
 
-## Escopo implementado
+## Proposta da solução
 
-Cada empreendimento cadastrado contém os campos obrigatórios:
+O sistema foi estruturado como um painel administrativo com autenticação e navegação por módulos. A experiência foi pensada para uso diário, com ações rápidas, feedback visual para operações e layout responsivo para desktop e mobile.
+
+O fluxo principal é:
+
+1. Acessar o sistema por login.
+2. Visualizar o módulo de resumo com indicadores e gráficos.
+3. Gerenciar empreendimentos no módulo de listagem.
+4. Cadastrar, editar, ativar/inativar e excluir registros.
+5. Localizar rapidamente informações com busca, filtros e paginação.
+
+## Dados gerenciados
+
+Cada empreendimento contém os campos:
 
 - Nome do empreendimento
 - Nome do(a) empreendedor(a) responsável
 - Município de Santa Catarina
-- Segmento de atuação: Tecnologia, Comércio, Indústria, Serviços, Agronegócio
+- Segmento de atuação (Tecnologia, Comércio, Indústria, Serviços, Agronegócio)
 - E-mail ou meio de contato
-- Status: ativo/inativo
+- Status (ativo ou inativo)
 
-## Funcionalidades principais
+## Funcionalidades implementadas
 
-- Autenticação básica com usuários em JSON e sessão por cookie
+- Autenticação básica com sessão por cookie
 - Dashboard com menu por seções (Resumo e Empreendimentos)
-- Indicadores e gráficos (status, segmentos e municípios)
+- Resumo com indicadores e gráficos por status, segmento e município
 - Cadastro por modal
 - Edição por modal
 - Exclusão com confirmação visual
-- Busca textual por múltiplos campos
+- Alteração rápida de status (ativo/inativo)
+- Busca textual no listado
 - Filtros por status, segmento e município
-- Paginação no estilo DataTable
-- Botão de limpeza de filtros
-- Toasts de sucesso/erro nas operações
-- Progress bar para estados de carregamento
-- Interface responsiva (menu e listagem adaptados para mobile)
+- Paginação do listado
+- Botão para limpar filtros
+- Toasts de sucesso/erro
+- Barras de progresso em operações de carregamento
+- Interface responsiva
 
-## Stack e arquitetura
+## Armazenamento em JSON
 
-- Framework: Next.js (App Router)
-- UI: Tailwind CSS + componentes utilitários
-- Visual analytics: Recharts
-- Persistência local: arquivos JSON
-- API: rotas internas em `/api`
+Os dados são persistidos localmente em arquivos JSON, sem banco de dados externo.
 
-Estrutura de persistência:
+- Empreendimentos: `data/empreendimentos.json`
+- Usuários de autenticação: `data/usuarios.json`
 
-- Dados de empreendimentos: `data/empreendimentos.json`
-- Usuários de login: `data/usuarios.json`
+Esse formato facilita execução local, inspeção direta dos registros e uso em contexto acadêmico/protótipo.
 
-## Como executar
+## Tecnologias utilizadas
+
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- MagicUI (`magicui-next`) com configuração global via `MagicUIProvider`
+- Recharts
+
+## Frontend e base visual
+
+O frontend é construído com base em Next.js + Tailwind e integra MagicUI por meio do `MagicUIProvider` no layout global da aplicação. Essa integração define tema, tokens visuais e estrutura base de UI para o painel.
+
+Este projeto contou com assistência de IA no processo de construção e otimização do frontend, apoiando decisões de estrutura visual, responsividade e refinamento da experiência de uso.
+
+Sobre os componentes de tela:
+
+- Parte da interface utiliza componentes customizados com Tailwind para manter aderência ao fluxo de gestão.
+- A base de estilo e contexto visual é fornecida pela integração com MagicUI.
+- Os gráficos analíticos são renderizados com Recharts, mantendo consistência com o tema da aplicação.
+
+## Como executar o projeto
 
 ```bash
 npm install
 npm run dev
 ```
 
-Aplicação: `http://localhost:3000`
+Acesse em: `http://localhost:3000`
 
-## Acesso padrão
+## Credenciais padrão
 
 - Usuário: `admin`
 - Senha: `admin123`
 
-## Rotas de interface
+## Rotas principais
 
 - `/login`
 - `/dashboard/resumo`
 - `/dashboard/empreendimentos`
 
-## API interna
+## Endpoints da API interna
 
 - `GET /api/empreendimentos`
 - `POST /api/empreendimentos`
@@ -73,25 +100,3 @@ Aplicação: `http://localhost:3000`
 - `POST /api/auth/login`
 - `POST /api/auth/logout`
 - `GET /api/auth/session`
-
-## Qualidade de código e boas práticas aplicadas
-
-- Separação de responsabilidades entre UI, rotas e camada de dados
-- Validação de entrada no backend
-- Reaproveitamento de componentes de interface
-- Mensagens de erro e sucesso orientadas ao usuário
-- Código legível, modular e com nomenclatura consistente
-- Lint aplicado para manter padrão e reduzir regressões
-
-## Critérios de avaliação (status atual)
-
-1. Documentação (README): **atendido** (mais de 1200 caracteres)
-2. Branches: **pendente** (é necessário inicializar Git e criar múltiplas branches)
-3. Commits: **pendente** (é necessário histórico com commits distintos e relevantes)
-4. Aderência ao escopo: **atendido** (funcionalidades obrigatórias implementadas)
-5. Qualidade do código: **atendido** (organização, legibilidade e coerência com o README)
-
-## Próximo passo para fechar 100% da rubrica
-
-Para cumprir os critérios de versionamento e commits, inicialize o repositório e trabalhe com fluxo por branches,
-registrando commits temáticos (ex.: auth, dashboard, filtros/paginação, responsividade, documentação).
