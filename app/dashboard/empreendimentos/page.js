@@ -1,5 +1,6 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import LoadingProgressBar from "@/app/components/loading-progress-bar";
 
@@ -21,6 +22,9 @@ const initialForm = {
 };
 
 export default function EmpreendimentosPage() {
+  const searchParams = useSearchParams();
+  const statusQuery = searchParams.get("status");
+
   const [form, setForm] = useState(initialForm);
   const [itens, setItens] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -77,6 +81,13 @@ export default function EmpreendimentosPage() {
   useEffect(() => {
     loadEmpreendimentos();
   }, [loadEmpreendimentos]);
+
+  useEffect(() => {
+    if (statusQuery === "ativo" || statusQuery === "inativo" || statusQuery === "todos") {
+      setStatusFilter(statusQuery);
+      setCurrentPage(1);
+    }
+  }, [statusQuery]);
 
   function handleInputChange(event) {
     const { name, value } = event.target;

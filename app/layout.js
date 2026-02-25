@@ -18,6 +18,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const currentYear = new Date().getFullYear();
+
   const magicTheme = {
     primary: "var(--primary)",
     secondary: "var(--secondary)",
@@ -37,7 +39,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MagicUIProvider theme={magicTheme} projectPrd={projectPrd}>
-          {children}
+          <div className="flex min-h-screen flex-col">
+            <div className="flex-1">{children}</div>
+            <footer className="border-t border-slate-800 bg-slate-950 px-4 py-3 text-center text-xs text-slate-300">
+              Magia Technologies Labs® {currentYear}. Todos os direitos reservados.
+            </footer>
+          </div>
         </MagicUIProvider>
       </body>
     </html>
