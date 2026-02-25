@@ -56,7 +56,20 @@ Esse formato facilita execução local, inspeção direta dos registros e uso em
 - Next.js (App Router)
 - React
 - Tailwind CSS
+- MagicUI (`magicui-next`) com configuração global via `MagicUIProvider`
 - Recharts
+
+## Frontend e base visual
+
+O frontend é construído com base em Next.js + Tailwind e integra MagicUI por meio do `MagicUIProvider` no layout global da aplicação. Essa integração define tema, tokens visuais e estrutura base de UI para o painel.
+
+Este projeto contou com assistência de IA no processo de construção e otimização do frontend, apoiando decisões de estrutura visual, responsividade e refinamento da experiência de uso.
+
+Sobre os componentes de tela:
+
+- Parte da interface utiliza componentes customizados com Tailwind para manter aderência ao fluxo de gestão.
+- A base de estilo e contexto visual é fornecida pela integração com MagicUI.
+- Os gráficos analíticos são renderizados com Recharts, mantendo consistência com o tema da aplicação.
 
 ## Como executar o projeto
 
