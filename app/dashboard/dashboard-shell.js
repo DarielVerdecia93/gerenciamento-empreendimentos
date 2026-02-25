@@ -32,17 +32,17 @@ export default function DashboardShell({ today, username, nome, children }) {
   }, [collapsed]);
 
   return (
-    <main className="min-h-screen bg-slate-100 text-slate-900">
+    <main className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto flex min-h-screen w-full max-w-[1400px]">
         <aside
-          className={`hidden border-r border-slate-200 bg-white transition-[width,padding] duration-300 ease-in-out md:block ${
+          className={`hidden border-r border-slate-800 bg-slate-950 transition-[width,padding] duration-300 ease-in-out md:block ${
             collapsed ? "w-[86px] p-2" : "w-[280px] p-3"
           }`}
         >
-          <div className={`rounded-xl border border-sky-200 bg-sky-50 ${collapsed ? "p-2" : "p-3"}`}>
+          <div className={`rounded-xl border border-slate-700 bg-slate-900 ${collapsed ? "p-2" : "p-3"}`}>
             <div className={`relative flex items-center ${collapsed ? "justify-center" : "justify-between"} gap-2`}>
               <div className="flex min-w-0 items-center gap-2">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-sky-600 text-sm font-bold text-white">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-sky-500 text-sm font-bold text-slate-950">
                   GE
                 </div>
 
@@ -51,15 +51,15 @@ export default function DashboardShell({ today, username, nome, children }) {
                     collapsed ? "max-w-0 opacity-0 -translate-x-2" : "max-w-[170px] opacity-100 translate-x-0"
                   }`}
                 >
-                  <p className="truncate text-xs uppercase tracking-widest text-sky-700">Painel</p>
-                  <h1 className="truncate text-sm font-semibold text-sky-900">Empreendimentos</h1>
+                  <p className="truncate text-xs uppercase tracking-widest text-sky-300">Painel</p>
+                  <h1 className="truncate text-sm font-semibold text-white">Empreendimentos</h1>
                 </div>
               </div>
 
               <button
                 type="button"
                 onClick={() => setCollapsed((prev) => !prev)}
-                className={`rounded-md border border-slate-300 bg-white p-1 text-slate-600 transition hover:bg-slate-50 ${
+                className={`rounded-md border border-slate-600 bg-slate-950 p-1 text-slate-300 transition hover:bg-slate-800 ${
                   collapsed ? "absolute -right-1 -top-1" : ""
                 }`}
                 aria-label={collapsed ? "Expandir menu" : "Recolher menu"}
@@ -73,7 +73,7 @@ export default function DashboardShell({ today, username, nome, children }) {
             </div>
 
             <p
-              className={`mt-2 overflow-hidden text-sm text-slate-600 transition-all duration-300 ${
+              className={`mt-2 overflow-hidden text-sm text-slate-300 transition-all duration-300 ${
                 collapsed ? "max-h-0 opacity-0" : "max-h-10 opacity-100"
               }`}
             >
@@ -94,12 +94,12 @@ export default function DashboardShell({ today, username, nome, children }) {
                     collapsed ? "justify-center" : "gap-2"
                   } ${
                     active
-                      ? "bg-sky-100 text-sky-800 ring-1 ring-sky-200"
-                      : "text-slate-700 hover:bg-slate-100"
+                      ? "bg-sky-500/20 text-sky-200 ring-1 ring-sky-500/40"
+                      : "text-slate-300 hover:bg-slate-800"
                   }`}
                   title={item.label}
                 >
-                  <Icon className={`h-4 w-4 shrink-0 ${active ? "text-sky-700" : ""}`} />
+                  <Icon className={`h-4 w-4 shrink-0 ${active ? "text-sky-300" : ""}`} />
                   <span
                     className={`overflow-hidden whitespace-nowrap transition-all duration-300 ${
                       collapsed ? "max-w-0 opacity-0" : "max-w-[160px] opacity-100"
@@ -114,17 +114,17 @@ export default function DashboardShell({ today, username, nome, children }) {
         </aside>
 
         <section className="flex-1">
-          <header className="border-b border-slate-200 bg-white px-4 py-4 md:px-6">
+          <header className="border-b border-slate-800 bg-slate-900 px-4 py-4 md:px-6">
             <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-3 text-slate-700">
-                <CalendarDays className="h-5 w-5 text-sky-700" />
+              <div className="flex items-center gap-3 text-slate-200">
+                <CalendarDays className="h-5 w-5 text-sky-300" />
                 <p className="text-sm font-medium">Hoje, {today}</p>
               </div>
 
               <div className="flex items-center gap-4">
                 <button
                   type="button"
-                  className="rounded-md border border-slate-300 bg-white p-2 text-slate-600"
+                  className="rounded-md border border-slate-700 bg-slate-950 p-2 text-slate-300"
                   aria-label="Notificações"
                 >
                   <Bell className="h-4 w-4" />
@@ -144,8 +144,8 @@ export default function DashboardShell({ today, username, nome, children }) {
                     href={item.href}
                     className={`inline-flex shrink-0 items-center gap-2 rounded-md border px-3 py-2 text-sm ${
                       active
-                        ? "border-sky-300 bg-sky-100 text-sky-800"
-                        : "border-slate-300 bg-slate-50 text-slate-700"
+                          ? "border-sky-500/40 bg-sky-500/20 text-sky-200"
+                          : "border-slate-700 bg-slate-950 text-slate-300"
                     }`}
                   >
                     <Icon className="h-4 w-4" />

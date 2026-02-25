@@ -250,8 +250,8 @@ export default function EmpreendimentosPage() {
             key={toast.id}
             className={`rounded-lg border px-4 py-3 text-sm shadow-lg ${
               toast.type === "error"
-                ? "border-rose-200 bg-rose-50 text-rose-700"
-                : "border-emerald-200 bg-emerald-50 text-emerald-700"
+                ? "border-rose-400/40 bg-rose-500/10 text-rose-300"
+                : "border-emerald-400/40 bg-emerald-500/10 text-emerald-300"
             }`}
           >
             {toast.message}
@@ -260,15 +260,15 @@ export default function EmpreendimentosPage() {
       </div>
 
       <header>
-        <h2 className="text-2xl font-semibold text-slate-900">Empreendimentos</h2>
-        <p className="text-sm text-slate-600">Cadastro e listagem com visual em painel.</p>
+        <h2 className="text-2xl font-semibold text-white">Empreendimentos</h2>
+        <p className="text-sm text-slate-300">Cadastro e listagem com visual em painel.</p>
       </header>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+      <section className="rounded-xl border border-slate-700 bg-slate-900 p-4 sm:p-5">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-sm font-medium text-slate-800">Ações rápidas</p>
-            <p className="text-xs text-slate-500">Gerencie seu cadastro sem sair da lista.</p>
+            <p className="text-sm font-medium text-slate-100">Ações rápidas</p>
+            <p className="text-xs text-slate-400">Gerencie seu cadastro sem sair da lista.</p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
@@ -279,14 +279,14 @@ export default function EmpreendimentosPage() {
                 setForm(initialForm);
                 setIsModalOpen(true);
               }}
-              className="rounded-md bg-sky-600 px-4 py-2 text-sm font-medium text-white"
+              className="rounded-md bg-sky-500 px-4 py-2 text-sm font-medium text-slate-950"
             >
               + Novo empreendimento
             </button>
             <button
               type="button"
               onClick={loadEmpreendimentos}
-              className="rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-700"
+              className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-200"
             >
               Atualizar
             </button>
@@ -294,10 +294,10 @@ export default function EmpreendimentosPage() {
         </div>
       </section>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-6">
+      <section className="rounded-xl border border-slate-700 bg-slate-900 p-4 sm:p-6">
         <div className="mb-4 flex items-center justify-between">
-          <h3 className="text-lg font-medium text-slate-800">Lista de empreendimentos</h3>
-          <p className="text-sm text-slate-500">Total filtrado: {filteredItens.length}</p>
+          <h3 className="text-lg font-medium text-slate-100">Lista de empreendimentos</h3>
+          <p className="text-sm text-slate-400">Total filtrado: {filteredItens.length}</p>
         </div>
 
         <div className="mb-4 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
@@ -306,13 +306,13 @@ export default function EmpreendimentosPage() {
             placeholder="Buscar por nome, responsável, município..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm"
+            className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500"
           />
 
           <select
             value={statusFilter}
             onChange={(e) => setStatusFilter(e.target.value)}
-            className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm"
+            className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
           >
             <option value="todos">Todos os status</option>
             <option value="ativo">Ativo</option>
@@ -322,7 +322,7 @@ export default function EmpreendimentosPage() {
           <select
             value={segmentoFilter}
             onChange={(e) => setSegmentoFilter(e.target.value)}
-            className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm"
+            className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
           >
             <option value="todos">Todos os segmentos</option>
             {SEGMENTOS.map((segmento) => (
@@ -335,7 +335,7 @@ export default function EmpreendimentosPage() {
           <select
             value={municipioFilter}
             onChange={(e) => setMunicipioFilter(e.target.value)}
-            className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm"
+            className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
           >
             <option value="todos">Todos os municípios</option>
             {municipios.map((municipio) => (
@@ -349,23 +349,23 @@ export default function EmpreendimentosPage() {
             type="button"
             onClick={clearFilters}
             disabled={!hasActiveFilters}
-            className="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 disabled:cursor-not-allowed disabled:opacity-50"
+            className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-200 disabled:cursor-not-allowed disabled:opacity-50"
           >
             Limpar filtros
           </button>
         </div>
 
-        {error ? <p className="mb-3 text-sm text-rose-600">{error}</p> : null}
+        {error ? <p className="mb-3 text-sm text-rose-300">{error}</p> : null}
 
         {loading ? (
-          <p className="text-sm text-slate-600">Carregando dados...</p>
+          <p className="text-sm text-slate-300">Carregando dados...</p>
         ) : filteredItens.length === 0 ? (
-          <p className="text-sm text-slate-600">Nenhum empreendimento cadastrado.</p>
+          <p className="text-sm text-slate-300">Nenhum empreendimento cadastrado.</p>
         ) : (
           <>
             <div className="space-y-3 md:hidden">
               {paginatedItens.map((item) => (
-                <article key={item.id} className="rounded-lg border border-slate-200 p-3 text-sm text-slate-700">
+                <article key={item.id} className="rounded-lg border border-slate-700 bg-slate-950 p-3 text-sm text-slate-200">
                   <p><span className="font-medium">Empreendimento:</span> {item.nomeEmpreendimento}</p>
                   <p><span className="font-medium">Responsável:</span> {item.nomeEmpreendedor}</p>
                   <p><span className="font-medium">Município:</span> {item.municipio}</p>
@@ -375,8 +375,8 @@ export default function EmpreendimentosPage() {
                     <span
                       className={`rounded-full px-2 py-1 text-xs ${
                         item.status === "ativo"
-                          ? "bg-emerald-100 text-emerald-700"
-                          : "bg-amber-100 text-amber-700"
+                          ? "bg-emerald-500/15 text-emerald-300"
+                          : "bg-amber-500/15 text-amber-300"
                       }`}
                     >
                       {item.status}
@@ -387,21 +387,21 @@ export default function EmpreendimentosPage() {
                     <button
                       type="button"
                       onClick={() => startEdit(item)}
-                      className="rounded-md border border-sky-300 px-3 py-1 text-xs text-sky-700"
+                      className="rounded-md border border-sky-500/50 px-3 py-1 text-xs text-sky-300"
                     >
                       Editar
                     </button>
                     <button
                       type="button"
                       onClick={() => toggleStatus(item)}
-                      className="rounded-md border border-slate-300 px-3 py-1 text-xs"
+                      className="rounded-md border border-slate-600 px-3 py-1 text-xs text-slate-200"
                     >
                       {item.status === "ativo" ? "Inativar" : "Ativar"}
                     </button>
                     <button
                       type="button"
                       onClick={() => setItemToDelete(item)}
-                      className="rounded-md border border-rose-300 px-3 py-1 text-xs text-rose-700"
+                      className="rounded-md border border-rose-500/50 px-3 py-1 text-xs text-rose-300"
                     >
                       Excluir
                     </button>
@@ -413,7 +413,7 @@ export default function EmpreendimentosPage() {
             <div className="hidden overflow-x-auto md:block">
               <table className="min-w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-slate-200 text-left text-slate-700">
+                  <tr className="border-b border-slate-700 text-left text-slate-300">
                     <th className="px-3 py-2 font-medium">Empreendimento</th>
                     <th className="px-3 py-2 font-medium">Responsável</th>
                     <th className="px-3 py-2 font-medium">Município</th>
@@ -425,7 +425,7 @@ export default function EmpreendimentosPage() {
                 </thead>
                 <tbody>
                   {paginatedItens.map((item) => (
-                    <tr key={item.id} className="border-b border-slate-100 align-top text-slate-700">
+                    <tr key={item.id} className="border-b border-slate-800 align-top text-slate-200">
                       <td className="px-3 py-2">{item.nomeEmpreendimento}</td>
                       <td className="px-3 py-2">{item.nomeEmpreendedor}</td>
                       <td className="px-3 py-2">{item.municipio}</td>
@@ -435,8 +435,8 @@ export default function EmpreendimentosPage() {
                         <span
                           className={`rounded-full px-2 py-1 text-xs ${
                             item.status === "ativo"
-                              ? "bg-emerald-100 text-emerald-700"
-                              : "bg-amber-100 text-amber-700"
+                              ? "bg-emerald-500/15 text-emerald-300"
+                              : "bg-amber-500/15 text-amber-300"
                           }`}
                         >
                           {item.status}
@@ -447,21 +447,21 @@ export default function EmpreendimentosPage() {
                           <button
                             type="button"
                             onClick={() => startEdit(item)}
-                            className="rounded-md border border-sky-300 px-3 py-1 text-xs text-sky-700"
+                            className="rounded-md border border-sky-500/50 px-3 py-1 text-xs text-sky-300"
                           >
                             Editar
                           </button>
                           <button
                             type="button"
                             onClick={() => toggleStatus(item)}
-                            className="rounded-md border border-slate-300 px-3 py-1 text-xs"
+                            className="rounded-md border border-slate-600 px-3 py-1 text-xs text-slate-200"
                           >
                             {item.status === "ativo" ? "Inativar" : "Ativar"}
                           </button>
                           <button
                             type="button"
                             onClick={() => setItemToDelete(item)}
-                            className="rounded-md border border-rose-300 px-3 py-1 text-xs text-rose-700"
+                            className="rounded-md border border-rose-500/50 px-3 py-1 text-xs text-rose-300"
                           >
                             Excluir
                           </button>
@@ -474,7 +474,7 @@ export default function EmpreendimentosPage() {
             </div>
 
             <div className="mt-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-              <p className="text-sm text-slate-500">
+              <p className="text-sm text-slate-400">
                 Mostrando {startEntry} a {endEntry} de {filteredItens.length} registros
               </p>
 
@@ -483,7 +483,7 @@ export default function EmpreendimentosPage() {
                   type="button"
                   onClick={() => setCurrentPage(1)}
                   disabled={currentPage === 1}
-                  className="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 disabled:opacity-50"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-2 py-1 text-sm text-slate-200 disabled:opacity-50"
                 >
                   «
                 </button>
@@ -491,18 +491,18 @@ export default function EmpreendimentosPage() {
                   type="button"
                   onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
                   disabled={currentPage === 1}
-                  className="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 disabled:opacity-50"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-2 py-1 text-sm text-slate-200 disabled:opacity-50"
                 >
                   ‹
                 </button>
-                <span className="rounded-md bg-blue-600 px-3 py-1 text-sm font-medium text-white">
+                <span className="rounded-md bg-sky-500 px-3 py-1 text-sm font-medium text-slate-950">
                   {currentPage}
                 </span>
                 <button
                   type="button"
                   onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
                   disabled={currentPage === totalPages}
-                  className="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 disabled:opacity-50"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-2 py-1 text-sm text-slate-200 disabled:opacity-50"
                 >
                   ›
                 </button>
@@ -510,7 +510,7 @@ export default function EmpreendimentosPage() {
                   type="button"
                   onClick={() => setCurrentPage(totalPages)}
                   disabled={currentPage === totalPages}
-                  className="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 disabled:opacity-50"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-2 py-1 text-sm text-slate-200 disabled:opacity-50"
                 >
                   »
                 </button>
@@ -521,62 +521,62 @@ export default function EmpreendimentosPage() {
       </section>
 
       {isModalOpen ? (
-        <div className="fixed inset-0 z-40 flex items-center justify-center bg-slate-900/50 p-4">
-          <div className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-xl">
-            <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
-              <h3 className="text-lg font-medium text-slate-800">
+        <div className="fixed inset-0 z-40 flex items-center justify-center bg-slate-950/70 p-4">
+          <div className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-xl border border-slate-700 bg-slate-900 shadow-xl">
+            <div className="flex items-center justify-between border-b border-slate-700 px-5 py-4">
+              <h3 className="text-lg font-medium text-slate-100">
                 {editingId ? "Editar empreendimento" : "Novo empreendimento"}
               </h3>
               <button
                 type="button"
                 onClick={closeModal}
-                className="rounded-md border border-slate-300 px-3 py-1 text-sm text-slate-600"
+                className="rounded-md border border-slate-600 px-3 py-1 text-sm text-slate-300"
               >
                 Fechar
               </button>
             </div>
 
             <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={handleSubmit}>
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 Nome do empreendimento
                 <input
                   name="nomeEmpreendimento"
                   value={form.nomeEmpreendimento}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 />
               </label>
 
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 Nome do(a) empreendedor(a) responsável
                 <input
                   name="nomeEmpreendedor"
                   value={form.nomeEmpreendedor}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 />
               </label>
 
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 Município de Santa Catarina
                 <input
                   name="municipio"
                   value={form.municipio}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 />
               </label>
 
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 Segmento de atuação
                 <select
                   name="segmento"
                   value={form.segmento}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 >
                   {SEGMENTOS.map((segmento) => (
@@ -587,24 +587,24 @@ export default function EmpreendimentosPage() {
                 </select>
               </label>
 
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 E-mail ou meio de contato
                 <input
                   name="contato"
                   value={form.contato}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 />
               </label>
 
-              <label className="flex flex-col gap-1 text-sm text-slate-700">
+              <label className="flex flex-col gap-1 text-sm text-slate-200">
                 Status
                 <select
                   name="status"
                   value={form.status}
                   onChange={handleInputChange}
-                  className="rounded-md border border-slate-300 bg-slate-50 px-3 py-2"
+                  className="rounded-md border border-slate-600 bg-slate-950 px-3 py-2 text-slate-100"
                   required
                 >
                   <option value="ativo">ativo</option>
@@ -612,18 +612,18 @@ export default function EmpreendimentosPage() {
                 </select>
               </label>
 
-              <div className="sm:col-span-2 flex justify-end gap-2 border-t border-slate-200 pt-4">
+              <div className="sm:col-span-2 flex justify-end gap-2 border-t border-slate-700 pt-4">
                 <button
                   type="button"
                   onClick={closeModal}
-                  className="rounded-md border border-slate-300 px-4 py-2 text-sm text-slate-700"
+                  className="rounded-md border border-slate-600 px-4 py-2 text-sm text-slate-200"
                 >
                   Cancelar
                 </button>
                 <button
                   type="submit"
                   disabled={saving}
-                  className="rounded-md bg-sky-600 px-4 py-2 text-sm font-medium text-white disabled:opacity-60"
+                  className="rounded-md bg-sky-500 px-4 py-2 text-sm font-medium text-slate-950 disabled:opacity-60"
                 >
                   {saving
                     ? "Guardando..."
@@ -638,26 +638,26 @@ export default function EmpreendimentosPage() {
       ) : null}
 
       {itemToDelete ? (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4">
-          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-5 shadow-xl">
-            <h3 className="text-lg font-semibold text-slate-900">Confirmar exclusão</h3>
-            <p className="mt-2 text-sm text-slate-600">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 p-4">
+          <div className="w-full max-w-md rounded-xl border border-slate-700 bg-slate-900 p-5 shadow-xl">
+            <h3 className="text-lg font-semibold text-slate-100">Confirmar exclusão</h3>
+            <p className="mt-2 text-sm text-slate-300">
               Deseja realmente excluir o empreendimento
-              <span className="font-medium text-slate-800"> {itemToDelete.nomeEmpreendimento}</span>?
+              <span className="font-medium text-white"> {itemToDelete.nomeEmpreendimento}</span>?
             </p>
 
             <div className="mt-5 flex justify-end gap-2">
               <button
                 type="button"
                 onClick={() => setItemToDelete(null)}
-                className="rounded-md border border-slate-300 px-4 py-2 text-sm text-slate-700"
+                className="rounded-md border border-slate-600 px-4 py-2 text-sm text-slate-200"
               >
                 Cancelar
               </button>
               <button
                 type="button"
                 onClick={() => removeItem(itemToDelete.id)}
-                className="rounded-md bg-rose-600 px-4 py-2 text-sm font-medium text-white"
+                className="rounded-md bg-rose-500 px-4 py-2 text-sm font-medium text-slate-950"
               >
                 Excluir
               </button>
