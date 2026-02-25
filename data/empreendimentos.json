@@ -1,0 +1,297 @@
+[
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30002",
+    "nomeEmpreendimento": "Costa Azul Comércio de Alimentos",
+    "nomeEmpreendedor": "Mariana Silveira",
+    "municipio": "Joinville",
+    "segmento": "Comércio",
+    "contato": "contato@costaazulcomercio.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-01T10:00:00.000Z",
+    "updatedAt": "2026-02-25T01:39:03.641Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30003",
+    "nomeEmpreendimento": "Inova Metal Indústria",
+    "nomeEmpreendedor": "Carlos Werner",
+    "municipio": "Blumenau",
+    "segmento": "Indústria",
+    "contato": "contato@inovametal.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-02T08:30:00.000Z",
+    "updatedAt": "2026-02-25T01:53:21.501Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30004",
+    "nomeEmpreendimento": "Serra Sul Serviços Técnicos",
+    "nomeEmpreendedor": "Eduardo Costa",
+    "municipio": "Lages",
+    "segmento": "Serviços",
+    "contato": "suporte@serrasulserv.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-02T11:15:00.000Z",
+    "updatedAt": "2026-02-25T01:53:22.844Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30005",
+    "nomeEmpreendimento": "Vale Verde Agronegócio",
+    "nomeEmpreendedor": "João Bittencourt",
+    "municipio": "Chapecó",
+    "segmento": "Agronegócio",
+    "contato": "contato@valeverdeagro.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-03T09:45:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30006",
+    "nomeEmpreendimento": "NorteLog Soluções",
+    "nomeEmpreendedor": "Patrícia Alencar",
+    "municipio": "Jaraguá do Sul",
+    "segmento": "Serviços",
+    "contato": "nortelog@empresa.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-03T13:00:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30007",
+    "nomeEmpreendimento": "Brisa Tech Sistemas",
+    "nomeEmpreendedor": "Fernanda Alves",
+    "municipio": "São José",
+    "segmento": "Tecnologia",
+    "contato": "fernanda@brisatech.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-04T08:00:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30008",
+    "nomeEmpreendimento": "Criciúma Centro Comercial",
+    "nomeEmpreendedor": "Luís Rocha",
+    "municipio": "Criciúma",
+    "segmento": "Comércio",
+    "contato": "contato@criciumacentro.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-04T11:00:00.000Z",
+    "updatedAt": "2026-02-25T01:53:25.307Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30009",
+    "nomeEmpreendimento": "Porto Industrial Catarinense",
+    "nomeEmpreendedor": "Roberto Farias",
+    "municipio": "Itajaí",
+    "segmento": "Indústria",
+    "contato": "roberto@portocatarinense.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-05T09:30:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30010",
+    "nomeEmpreendimento": "Navega Mais Turismo",
+    "nomeEmpreendedor": "Alice Medeiros",
+    "municipio": "Balneário Camboriú",
+    "segmento": "Serviços",
+    "contato": "alice@navegamais.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-05T14:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30011",
+    "nomeEmpreendimento": "Brusque Moda Atacado",
+    "nomeEmpreendedor": "Renato Pires",
+    "municipio": "Brusque",
+    "segmento": "Comércio",
+    "contato": "renato@brusquemoda.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-06T08:50:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30012",
+    "nomeEmpreendimento": "Tubarão Agro Insumos",
+    "nomeEmpreendedor": "Aline Correa",
+    "municipio": "Tubarão",
+    "segmento": "Agronegócio",
+    "contato": "comercial@tubaraoagro.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-06T12:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30013",
+    "nomeEmpreendimento": "Palhoça Digital Hub",
+    "nomeEmpreendedor": "Vinícius Moraes",
+    "municipio": "Palhoça",
+    "segmento": "Tecnologia",
+    "contato": "vinicius@palhocahub.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-07T09:40:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30014",
+    "nomeEmpreendimento": "Rio Sul Engenharia",
+    "nomeEmpreendedor": "Sandra Weiss",
+    "municipio": "Rio do Sul",
+    "segmento": "Serviços",
+    "contato": "sandra@riosulengenharia.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-07T15:00:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30015",
+    "nomeEmpreendimento": "Caçador Móveis Industriais",
+    "nomeEmpreendedor": "Lucas Antunes",
+    "municipio": "Caçador",
+    "segmento": "Indústria",
+    "contato": "contato@cacadormoveis.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-08T08:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30016",
+    "nomeEmpreendimento": "Concórdia Alimentos Naturais",
+    "nomeEmpreendedor": "Beatriz Hoff",
+    "municipio": "Concórdia",
+    "segmento": "Comércio",
+    "contato": "beatriz@concordianaturais.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-08T11:25:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30017",
+    "nomeEmpreendimento": "São Bento Ferramentaria",
+    "nomeEmpreendedor": "Henrique Martins",
+    "municipio": "São Bento do Sul",
+    "segmento": "Indústria",
+    "contato": "vendas@saobentoferramentaria.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-09T09:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30018",
+    "nomeEmpreendimento": "Gaspar Clean Serviços",
+    "nomeEmpreendedor": "Priscila Duarte",
+    "municipio": "Gaspar",
+    "segmento": "Serviços",
+    "contato": "priscila@gasparclean.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-09T14:30:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30019",
+    "nomeEmpreendimento": "Navegantes Port Service",
+    "nomeEmpreendedor": "Mateus Lima",
+    "municipio": "Navegantes",
+    "segmento": "Serviços",
+    "contato": "mateus@navegantesport.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-10T08:45:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30020",
+    "nomeEmpreendimento": "Itapema Beach Comércio",
+    "nomeEmpreendedor": "Rafaela Souza",
+    "municipio": "Itapema",
+    "segmento": "Comércio",
+    "contato": "contato@itapemabeach.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-10T12:05:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30021",
+    "nomeEmpreendimento": "Biguaçu Tech Solutions",
+    "nomeEmpreendedor": "Felipe Tavares",
+    "municipio": "Biguaçu",
+    "segmento": "Tecnologia",
+    "contato": "felipe@biguacutech.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-11T09:35:00.000Z",
+    "updatedAt": "2026-02-25T01:32:01.560Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30022",
+    "nomeEmpreendimento": "Araranguá Agro Center",
+    "nomeEmpreendedor": "Juliana Ramos",
+    "municipio": "Araranguá",
+    "segmento": "Agronegócio",
+    "contato": "juliana@araranguaagro.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-11T13:50:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30023",
+    "nomeEmpreendimento": "Mafra Construções Inteligentes",
+    "nomeEmpreendedor": "Daniel Kruger",
+    "municipio": "Mafra",
+    "segmento": "Serviços",
+    "contato": "daniel@mafraconstrucoes.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-12T08:25:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30024",
+    "nomeEmpreendimento": "Canoinhas Mercado Rural",
+    "nomeEmpreendedor": "Tiago Nunes",
+    "municipio": "Canoinhas",
+    "segmento": "Comércio",
+    "contato": "contato@canoinhasrural.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-12T11:40:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30025",
+    "nomeEmpreendimento": "Laguna Mar Serviços",
+    "nomeEmpreendedor": "Gustavo Pereira",
+    "municipio": "Laguna",
+    "segmento": "Serviços",
+    "contato": "gustavo@lagunamar.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-13T09:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30026",
+    "nomeEmpreendimento": "Imbituba Port Trade",
+    "nomeEmpreendedor": "Natália Mello",
+    "municipio": "Imbituba",
+    "segmento": "Comércio",
+    "contato": "natalia@imbitubatrade.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-13T14:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30027",
+    "nomeEmpreendimento": "Joaçaba Equipamentos Industriais",
+    "nomeEmpreendedor": "Márcio Cardoso",
+    "municipio": "Joaçaba",
+    "segmento": "Indústria",
+    "contato": "marcio@joacabaequip.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-14T08:05:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30028",
+    "nomeEmpreendimento": "Xanxerê Agro Tecnologia",
+    "nomeEmpreendedor": "Camila Brum",
+    "municipio": "Xanxerê",
+    "segmento": "Agronegócio",
+    "contato": "camila@xanxereagrotec.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-14T10:55:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30029",
+    "nomeEmpreendimento": "Curitibanos Soluções em TI",
+    "nomeEmpreendedor": "Pedro Schmitt",
+    "municipio": "Curitibanos",
+    "segmento": "Tecnologia",
+    "contato": "pedro@curitibanosti.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-15T09:25:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30030",
+    "nomeEmpreendimento": "Pomerode Industrial Design",
+    "nomeEmpreendedor": "Helena Wiese",
+    "municipio": "Pomerode",
+    "segmento": "Indústria",
+    "contato": "helena@pomerodedesign.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-15T12:15:00.000Z"
+  }
+]

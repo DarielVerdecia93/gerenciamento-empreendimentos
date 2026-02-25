@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-lc",
+				"export NVM_DIR=\"$HOME/.nvm\" && . \"$NVM_DIR/nvm.sh\" && nvm use 20 && npm run dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
