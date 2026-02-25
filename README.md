@@ -80,6 +80,17 @@ npm run dev
 
 Acesse em: `http://localhost:3000`
 
+## Ambiente de teste (hosteado)
+
+Para fins de validação, o projeto está disponível em:
+
+- `https://gerenciamento-empreendimentos.vercel.app`
+
+Credenciais para teste:
+
+- Usuário: `admin`
+- Senha: `admin123`
+
 ## Credenciais padrão
 
 - Usuário: `admin`
