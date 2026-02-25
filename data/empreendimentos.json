@@ -293,5 +293,205 @@
     "contato": "helena@pomerodedesign.com.br",
     "status": "ativo",
     "createdAt": "2026-02-15T12:15:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30031",
+    "nomeEmpreendimento": "Videira Fruticultura Integrada",
+    "nomeEmpreendedor": "André Cadorin",
+    "municipio": "Videira",
+    "segmento": "Agronegócio",
+    "contato": "andre@videirafruti.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-16T08:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30032",
+    "nomeEmpreendimento": "Fraiburgo Tecnologia Rural",
+    "nomeEmpreendedor": "Marcela Hoffmann",
+    "municipio": "Fraiburgo",
+    "segmento": "Tecnologia",
+    "contato": "marcela@fraiburgotec.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-16T10:40:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30033",
+    "nomeEmpreendimento": "Içara Conecta Serviços",
+    "nomeEmpreendedor": "Rafael Possamai",
+    "municipio": "Içara",
+    "segmento": "Serviços",
+    "contato": "rafael@icaraconecta.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-16T13:15:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30034",
+    "nomeEmpreendimento": "São Miguel Oeste Varejo",
+    "nomeEmpreendedor": "Luciana Werlang",
+    "municipio": "São Miguel do Oeste",
+    "segmento": "Comércio",
+    "contato": "luciana@smo-varejo.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-16T15:50:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30035",
+    "nomeEmpreendimento": "Campos Novos Energia e Indústria",
+    "nomeEmpreendedor": "Igor Zanella",
+    "municipio": "Campos Novos",
+    "segmento": "Indústria",
+    "contato": "igor@camposnovosenergia.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-17T08:30:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30036",
+    "nomeEmpreendimento": "Morro da Fumaça Cerâmica Inteligente",
+    "nomeEmpreendedor": "Caroline Viana",
+    "municipio": "Morro da Fumaça",
+    "segmento": "Indústria",
+    "contato": "caroline@ceramicami.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-17T09:45:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30037",
+    "nomeEmpreendimento": "Braço do Norte Agropecuária",
+    "nomeEmpreendedor": "Fernando Loch",
+    "municipio": "Braço do Norte",
+    "segmento": "Agronegócio",
+    "contato": "fernando@bnagro.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-17T11:00:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30038",
+    "nomeEmpreendimento": "Porto União Market Place",
+    "nomeEmpreendedor": "Bianca Silveira",
+    "municipio": "Porto União",
+    "segmento": "Comércio",
+    "contato": "bianca@portouniaomarket.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-17T14:35:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30039",
+    "nomeEmpreendimento": "São Francisco do Sul Tech Port",
+    "nomeEmpreendedor": "Bruno Diniz",
+    "municipio": "São Francisco do Sul",
+    "segmento": "Tecnologia",
+    "contato": "bruno@techportsf.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-17T16:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30040",
+    "nomeEmpreendimento": "Orleans Serviços Contábeis",
+    "nomeEmpreendedor": "Taís da Rosa",
+    "municipio": "Orleans",
+    "segmento": "Serviços",
+    "contato": "tais@orleanscontabil.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-18T08:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30041",
+    "nomeEmpreendimento": "São Lourenço do Oeste Agro Data",
+    "nomeEmpreendedor": "Michele Dalto",
+    "municipio": "São Lourenço do Oeste",
+    "segmento": "Tecnologia",
+    "contato": "michele@sloagrodata.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-18T09:30:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30042",
+    "nomeEmpreendimento": "São João Batista Calçados",
+    "nomeEmpreendedor": "Guilherme Ronchi",
+    "municipio": "São João Batista",
+    "segmento": "Indústria",
+    "contato": "guilherme@sjbcalcados.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-18T11:45:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30043",
+    "nomeEmpreendimento": "Timbó Soluções Empresariais",
+    "nomeEmpreendedor": "Débora Klein",
+    "municipio": "Timbó",
+    "segmento": "Serviços",
+    "contato": "debora@timbosolucoes.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-18T14:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30044",
+    "nomeEmpreendimento": "Schroeder Comércio Atacadista",
+    "nomeEmpreendedor": "Leandro Peixer",
+    "municipio": "Schroeder",
+    "segmento": "Comércio",
+    "contato": "leandro@schroederatacado.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-18T16:25:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30045",
+    "nomeEmpreendimento": "Forquilhinha Alimentos Coloniais",
+    "nomeEmpreendedor": "Rosana Borges",
+    "municipio": "Forquilhinha",
+    "segmento": "Comércio",
+    "contato": "rosana@forquialimentos.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-19T08:55:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30046",
+    "nomeEmpreendimento": "Santo Amaro Logística Integrada",
+    "nomeEmpreendedor": "Paulo Cezar Luz",
+    "municipio": "Santo Amaro da Imperatriz",
+    "segmento": "Serviços",
+    "contato": "paulo@santolog.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-19T10:20:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30047",
+    "nomeEmpreendimento": "Capinzal Agro Inovação",
+    "nomeEmpreendedor": "Alessandra Moresco",
+    "municipio": "Capinzal",
+    "segmento": "Agronegócio",
+    "contato": "alessandra@capinzalagro.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-19T13:35:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30048",
+    "nomeEmpreendimento": "Urussanga Mineração e Comércio",
+    "nomeEmpreendedor": "Sérgio Guidi",
+    "municipio": "Urussanga",
+    "segmento": "Indústria",
+    "contato": "sergio@urussangamineracao.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-19T15:10:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30049",
+    "nomeEmpreendimento": "Balneário Piçarras Digital Commerce",
+    "nomeEmpreendedor": "Luan Ribeiro",
+    "municipio": "Balneário Piçarras",
+    "segmento": "Tecnologia",
+    "contato": "luan@picarrasdigital.com.br",
+    "status": "ativo",
+    "createdAt": "2026-02-20T09:00:00.000Z"
+  },
+  {
+    "id": "6e981f42-0878-43a2-a820-14a6d4a30050",
+    "nomeEmpreendimento": "Canelinha Serviços de Campo",
+    "nomeEmpreendedor": "Paula Mendes",
+    "municipio": "Canelinha",
+    "segmento": "Serviços",
+    "contato": "paula@canelinhaserv.com.br",
+    "status": "inativo",
+    "createdAt": "2026-02-20T11:40:00.000Z"
   }
 ]
