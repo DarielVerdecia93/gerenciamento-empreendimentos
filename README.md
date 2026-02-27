@@ -115,3 +115,7 @@ Credenciais para teste:
 - `POST /api/auth/login`
 - `POST /api/auth/logout`
 - `GET /api/auth/session`
+
+
+## 🎥 Video Pitch
+[![Watch the video](https://img.youtube.com/vi/eZKHQY2oGpk/maxresdefault.jpg)](https://www.youtube.com/watch?v=eZKHQY2oGpk)
