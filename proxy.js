@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 const SESSION_COOKIE = "empre_session";
 
-export function middleware(request) {
+export function proxy(request) {
   const token = request.cookies.get(SESSION_COOKIE)?.value;
   const { pathname } = request.nextUrl;
 
