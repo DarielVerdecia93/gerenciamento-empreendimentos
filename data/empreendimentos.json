@@ -26,11 +26,11 @@
     "nomeEmpreendimento": "Serra Sul Serviços Técnicos",
     "nomeEmpreendedor": "Eduardo Costa",
     "municipio": "Lages",
-    "segmento": "Serviços",
+    "segmento": "Tecnologia",
     "contato": "suporte@serrasulserv.com.br",
-    "status": "ativo",
+    "status": "inativo",
     "createdAt": "2026-02-02T11:15:00.000Z",
-    "updatedAt": "2026-02-25T01:53:22.844Z"
+    "updatedAt": "2026-02-27T12:21:58.199Z"
   },
   {
     "id": "6e981f42-0878-43a2-a820-14a6d4a30005",
